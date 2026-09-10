@@ -1,0 +1,8129 @@
+[
+  {
+    "id": "单选题-2",
+    "type": "单选题",
+    "text": "在人工智能的早期研究中，（）首次定义了机器智能的评判标准，直接推动达特茅斯会议（1956年）将AI确立为独立学科。",
+    "options": [
+      {
+        "key": "A",
+        "text": "深度学习网络的出现"
+      },
+      {
+        "key": "B",
+        "text": "图灵测试的提出"
+      },
+      {
+        "key": "C",
+        "text": "支持向量机（SVM）的发明"
+      },
+      {
+        "key": "D",
+        "text": "自适应神经网络的提出"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "图灵测试由阿兰·图灵于1950年提出，是人工智能领域的早期重要贡献之一，旨在评估机器是否能够展现出与人类相当的智能。",
+    "category": "人工智能理论基础",
+    "difficulty": "简单",
+    "sourceRow": 2
+  },
+  {
+    "id": "单选题-3",
+    "type": "单选题",
+    "text": "现代人工智能的复兴可以归因于哪项技术的突破？",
+    "options": [
+      {
+        "key": "A",
+        "text": "神经网络的回归和深度学习的突破"
+      },
+      {
+        "key": "B",
+        "text": "量子计算的实现"
+      },
+      {
+        "key": "C",
+        "text": "人工智能伦理学的完善"
+      },
+      {
+        "key": "D",
+        "text": "区块链技术的应用"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "现代人工智能的复兴，尤其是深度学习的崛起，得益于神经网络的改进和计算能力的提升，特别是在大数据和GPU计算方面的进步。",
+    "category": "人工智能理论基础",
+    "difficulty": "简单",
+    "sourceRow": 3
+  },
+  {
+    "id": "单选题-4",
+    "type": "单选题",
+    "text": "以下哪一项是2016年AlphaGo战胜围棋世界冠军李世石的重大意义？",
+    "options": [
+      {
+        "key": "A",
+        "text": "证明了计算机可以理解人类情感"
+      },
+      {
+        "key": "B",
+        "text": "证明了强化学习可以应用于复杂任务"
+      },
+      {
+        "key": "C",
+        "text": "证明了机器可以完美复制人类大脑"
+      },
+      {
+        "key": "D",
+        "text": "证明了计算机能够打破量子计算的限制"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "2016年，AlphaGo利用强化学习和深度学习技术战胜围棋世界冠军李世石，证明了强化学习可以在复杂任务中取得突破性进展。",
+    "category": "人工智能理论基础",
+    "difficulty": "简单",
+    "sourceRow": 4
+  },
+  {
+    "id": "单选题-5",
+    "type": "单选题",
+    "text": "在神经网络中，反向传播算法用于什么？",
+    "options": [
+      {
+        "key": "A",
+        "text": "更新权重和偏置"
+      },
+      {
+        "key": "B",
+        "text": "初始化参数"
+      },
+      {
+        "key": "C",
+        "text": "计算训练集的输出"
+      },
+      {
+        "key": "D",
+        "text": "提高模型复杂度"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "反向传播用于计算梯度并根据梯度更新神经网络中的权重和偏置。",
+    "category": "人工智能理论基础",
+    "difficulty": "简单",
+    "sourceRow": 5
+  },
+  {
+    "id": "单选题-6",
+    "type": "单选题",
+    "text": "在大语言模型中，什么是“层归一化”（Layer Normalization）的主要作用？",
+    "options": [
+      {
+        "key": "A",
+        "text": "提高模型的训练速度"
+      },
+      {
+        "key": "B",
+        "text": "防止模型过拟合"
+      },
+      {
+        "key": "C",
+        "text": "稳定训练过程，加快收敛速度"
+      },
+      {
+        "key": "D",
+        "text": "提高模型的生成质量"
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "explanation": "层归一化（Layer Normalization）的主要作用是稳定训练过程，加快收敛速度。通过归一化每一层的输入，层归一化可以减少训练过程中的内部协变量偏移（Internal Covariate Shift），使得模型在不同层之间的学习更加稳定，从而加速训练收敛。",
+    "category": "人工智能理论基础",
+    "difficulty": "简单",
+    "sourceRow": 6
+  },
+  {
+    "id": "单选题-7",
+    "type": "单选题",
+    "text": "在神经网络中，梯度消失问题通常出现在：",
+    "options": [
+      {
+        "key": "A",
+        "text": "激活函数中"
+      },
+      {
+        "key": "B",
+        "text": "权重初始化时"
+      },
+      {
+        "key": "C",
+        "text": "深度网络的反向传播阶段"
+      },
+      {
+        "key": "D",
+        "text": "数据归一化过程中"
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "explanation": "在深层神经网络中，梯度消失问题通常出现在反向传播过程中，尤其是深度网络中的梯度逐渐减小，导致无法有效更新参数。",
+    "category": "人工智能理论基础",
+    "difficulty": "普通",
+    "sourceRow": 7
+  },
+  {
+    "id": "单选题-8",
+    "type": "单选题",
+    "text": "在深度神经网络中，梯度爆炸问题通常发生在哪些情况下？",
+    "options": [
+      {
+        "key": "A",
+        "text": "网络层数过少"
+      },
+      {
+        "key": "B",
+        "text": "网络中使用的激活函数没有非线性特性"
+      },
+      {
+        "key": "C",
+        "text": "网络层数过多或使用不适当的初始化方法"
+      },
+      {
+        "key": "D",
+        "text": "网络使用的优化算法过于复杂"
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "explanation": "梯度爆炸（Gradient Exploding）通常发生在深层网络中，尤其是在没有正确初始化或使用较大的学习率时。梯度值可能在反向传播中指数增长，导致训练不稳定。",
+    "category": "人工智能理论基础",
+    "difficulty": "普通",
+    "sourceRow": 8
+  },
+  {
+    "id": "单选题-9",
+    "type": "单选题",
+    "text": "在深度学习中，使用“梯度裁剪”（Gradient Clipping）技术的目的是什么？",
+    "options": [
+      {
+        "key": "A",
+        "text": "限制每个神经元的输出范围"
+      },
+      {
+        "key": "B",
+        "text": "防止梯度爆炸，通过裁剪过大的梯度"
+      },
+      {
+        "key": "C",
+        "text": "提高神经网络的学习效率"
+      },
+      {
+        "key": "D",
+        "text": "使网络更容易收敛"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "梯度裁剪是通过限制梯度的最大值，避免梯度爆炸（即梯度过大导致训练不稳定）。它通常用于深度网络的训练，尤其是RNN等长序列模型。",
+    "category": "人工智能理论基础",
+    "difficulty": "普通",
+    "sourceRow": 9
+  },
+  {
+    "id": "单选题-10",
+    "type": "单选题",
+    "text": "人工智能的“弱人工智能”和“强人工智能”之间的主要区别是？",
+    "options": [
+      {
+        "key": "A",
+        "text": "弱人工智能能够模拟人类的所有思维过程，而强人工智能只能解决特定问题。"
+      },
+      {
+        "key": "B",
+        "text": "强人工智能能够模拟人类的所有思维过程，而弱人工智能只能解决特定问题。"
+      },
+      {
+        "key": "C",
+        "text": "弱人工智能不需要使用机器学习，强人工智能则必须使用。"
+      },
+      {
+        "key": "D",
+        "text": "强人工智能是一种尚未实现的理论概念，弱人工智能已经得到广泛应用。"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "弱人工智能是指专门为特定任务设计的智能系统，而强人工智能则旨在模拟人类的全面智能，具备自主学习和思考能力，尽管这一目标尚未实现。",
+    "category": "人工智能理论基础",
+    "difficulty": "简单",
+    "sourceRow": 10
+  },
+  {
+    "id": "单选题-11",
+    "type": "单选题",
+    "text": "下列哪项技术并不直接与“人工智能”相关？",
+    "options": [
+      {
+        "key": "A",
+        "text": "区块链"
+      },
+      {
+        "key": "B",
+        "text": "语音识别"
+      },
+      {
+        "key": "C",
+        "text": "自动翻译"
+      },
+      {
+        "key": "D",
+        "text": "自然语言处理"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "区块链是一种去中心化的分布式账本技术，虽然在一些AI应用中有交集，但它并不直接属于人工智能的范畴。语音识别、自动翻译和自然语言处理都是人工智能的应用领域。",
+    "category": "人工智能理论基础",
+    "difficulty": "简单",
+    "sourceRow": 11
+  },
+  {
+    "id": "单选题-12",
+    "type": "单选题",
+    "text": "GPT模型的“GPT”代表什么意思？",
+    "options": [
+      {
+        "key": "A",
+        "text": "Generative Pretrained Transformer"
+      },
+      {
+        "key": "B",
+        "text": "Generalized Prediction Transformer"
+      },
+      {
+        "key": "C",
+        "text": "Gradient Pretrained Transformer"
+      },
+      {
+        "key": "D",
+        "text": "Graph Processing Transformer"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "“GPT”代表生成式预训练变换器（Generative Pretrained Transformer），它是由OpenAI提出的一类基于Transformer架构的大规模语言模型。",
+    "category": "人工智能理论基础",
+    "difficulty": "简单",
+    "sourceRow": 12
+  },
+  {
+    "id": "单选题-13",
+    "type": "单选题",
+    "text": "在训练机器学习模型时，模型的“泛化能力”指的是什么？",
+    "options": [
+      {
+        "key": "A",
+        "text": "模型在训练数据上的准确度"
+      },
+      {
+        "key": "B",
+        "text": "模型在测试数据上的准确度"
+      },
+      {
+        "key": "C",
+        "text": "模型能够学习并适应新数据的能力"
+      },
+      {
+        "key": "D",
+        "text": "模型的复杂度和参数个数"
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "explanation": "泛化能力指的是模型在未见过的新数据上的表现，即能够准确预测测试数据的能力。",
+    "category": "人工智能理论基础",
+    "difficulty": "简单",
+    "sourceRow": 13
+  },
+  {
+    "id": "单选题-14",
+    "type": "单选题",
+    "text": "在机器学习中，\"过拟合\"通常表示？",
+    "options": [
+      {
+        "key": "A",
+        "text": "模型过于简单，无法学习数据的特征"
+      },
+      {
+        "key": "B",
+        "text": "模型在训练数据上表现很好，但在测试数据上表现差"
+      },
+      {
+        "key": "C",
+        "text": "模型在训练数据上表现差"
+      },
+      {
+        "key": "D",
+        "text": "模型的训练数据非常少"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "过拟合是指模型在训练数据上学习过多的噪声，导致在测试数据上表现不好。",
+    "category": "人工智能理论基础",
+    "difficulty": "简单",
+    "sourceRow": 14
+  },
+  {
+    "id": "单选题-15",
+    "type": "单选题",
+    "text": "哪种方法适用于解决回归问题？",
+    "options": [
+      {
+        "key": "A",
+        "text": "支持向量机（SVM）"
+      },
+      {
+        "key": "B",
+        "text": "K均值聚类（K-Means）"
+      },
+      {
+        "key": "C",
+        "text": "逻辑回归"
+      },
+      {
+        "key": "D",
+        "text": "线性回归"
+      }
+    ],
+    "answer": [
+      "D"
+    ],
+    "explanation": "线性回归是用于回归问题的监督学习方法，SVM也可以用于回归问题，但K均值聚类和逻辑回归通常用于分类任务。",
+    "category": "人工智能理论基础",
+    "difficulty": "简单",
+    "sourceRow": 15
+  },
+  {
+    "id": "单选题-16",
+    "type": "单选题",
+    "text": "在监督学习中，数据集包含了哪些部分？",
+    "options": [
+      {
+        "key": "A",
+        "text": "输入数据和模型输出"
+      },
+      {
+        "key": "B",
+        "text": "特征数据和标签数据"
+      },
+      {
+        "key": "C",
+        "text": "训练数据和测试数据"
+      },
+      {
+        "key": "D",
+        "text": "训练数据和验证数据"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "监督学习的训练数据包含输入数据和标签数据，模型通过这些数据进行训练。",
+    "category": "人工智能理论基础",
+    "difficulty": "简单",
+    "sourceRow": 16
+  },
+  {
+    "id": "单选题-17",
+    "type": "单选题",
+    "text": "在监督学习中，模型的输入是",
+    "options": [
+      {
+        "key": "A",
+        "text": "仅有特征数据"
+      },
+      {
+        "key": "B",
+        "text": "仅有标签数据"
+      },
+      {
+        "key": "C",
+        "text": "特征数据和标签数据"
+      },
+      {
+        "key": "D",
+        "text": "无标签数据"
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "explanation": "监督学习需要同时使用特征数据和标签数据进行训练。",
+    "category": "人工智能理论基础",
+    "difficulty": "简单",
+    "sourceRow": 17
+  },
+  {
+    "id": "单选题-18",
+    "type": "单选题",
+    "text": "以下哪种方法属于监督学习的典型应用？",
+    "options": [
+      {
+        "key": "A",
+        "text": "图像分类"
+      },
+      {
+        "key": "B",
+        "text": "聚类分析"
+      },
+      {
+        "key": "C",
+        "text": "主成分分析（PCA）"
+      },
+      {
+        "key": "D",
+        "text": "降维"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "图像分类是监督学习的典型应用，输入数据与标签数据共同参与训练。聚类分析、PCA和降维则属于非监督学习。",
+    "category": "人工智能理论基础",
+    "difficulty": "简单",
+    "sourceRow": 18
+  },
+  {
+    "id": "单选题-19",
+    "type": "单选题",
+    "text": "在监督学习中，哪个算法主要用于分类问题？",
+    "options": [
+      {
+        "key": "A",
+        "text": "线性回归"
+      },
+      {
+        "key": "B",
+        "text": "K-Nearest Neighbors（KNN）"
+      },
+      {
+        "key": "C",
+        "text": "主成分分析（PCA）"
+      },
+      {
+        "key": "D",
+        "text": "K均值聚类"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "K-Nearest Neighbors（KNN）是一个经典的分类算法。线性回归用于回归问题，PCA和K均值聚类通常用于非监督学习。",
+    "category": "人工智能理论基础",
+    "difficulty": "简单",
+    "sourceRow": 19
+  },
+  {
+    "id": "单选题-20",
+    "type": "单选题",
+    "text": "神经网络中，以下哪种组件或方法引入了非线性？",
+    "options": [
+      {
+        "key": "A",
+        "text": "随机梯度下降"
+      },
+      {
+        "key": "B",
+        "text": "修正线性单元（ReLU）"
+      },
+      {
+        "key": "C",
+        "text": "卷积操作"
+      },
+      {
+        "key": "D",
+        "text": "以上均不正确"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "ReLU 是一种非线性激活函数，能够引入非线性，使神经网络具备学习复杂映射的能力。",
+    "category": "人工智能理论基础",
+    "difficulty": "简单",
+    "sourceRow": 20
+  },
+  {
+    "id": "单选题-21",
+    "type": "单选题",
+    "text": "在卷积神经网络中，卷积操作的计算方式是什么？",
+    "options": [
+      {
+        "key": "A",
+        "text": "对输入图像进行加权和运算"
+      },
+      {
+        "key": "B",
+        "text": "对图像进行图像处理"
+      },
+      {
+        "key": "C",
+        "text": "将图像分成小块处理"
+      },
+      {
+        "key": "D",
+        "text": "利用回归方法进行计算"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "卷积操作通过滑动窗口与输入图像的局部区域进行加权和，从而提取局部特征。",
+    "category": "人工智能理论基础",
+    "difficulty": "简单",
+    "sourceRow": 21
+  },
+  {
+    "id": "单选题-22",
+    "type": "单选题",
+    "text": "在卷积神经网络中，卷积操作的核心目标是什么？",
+    "options": [
+      {
+        "key": "A",
+        "text": "对图像进行颜色转换"
+      },
+      {
+        "key": "B",
+        "text": "提取图像的空间局部特征"
+      },
+      {
+        "key": "C",
+        "text": "增加图像的分辨率"
+      },
+      {
+        "key": "D",
+        "text": "进行数据增强"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "卷积操作的主要目标是提取图像的局部特征，如边缘、角点等。",
+    "category": "人工智能理论基础",
+    "difficulty": "简单",
+    "sourceRow": 22
+  },
+  {
+    "id": "单选题-23",
+    "type": "单选题",
+    "text": "以下哪项是LSTM网络的特点？",
+    "options": [
+      {
+        "key": "A",
+        "text": "在时间序列中能够捕捉长期依赖"
+      },
+      {
+        "key": "B",
+        "text": "只适用于静态数据"
+      },
+      {
+        "key": "C",
+        "text": "适合于处理图像数据"
+      },
+      {
+        "key": "D",
+        "text": "不能用于回归任务"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "LSTM网络通过引入记忆单元和门控机制，能够有效地捕捉长期依赖。",
+    "category": "人工智能理论基础",
+    "difficulty": "简单",
+    "sourceRow": 23
+  },
+  {
+    "id": "单选题-24",
+    "type": "单选题",
+    "text": "在卷积神经网络中，池化层的作用是什么？",
+    "options": [
+      {
+        "key": "A",
+        "text": "增加特征图的大小"
+      },
+      {
+        "key": "B",
+        "text": "缩小特征图的尺寸，减少计算量"
+      },
+      {
+        "key": "C",
+        "text": "增加网络的非线性"
+      },
+      {
+        "key": "D",
+        "text": "提取更多的特征"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "池化层通过下采样操作缩小特征图的尺寸，减少计算量并控制过拟合。",
+    "category": "人工智能理论基础",
+    "difficulty": "简单",
+    "sourceRow": 24
+  },
+  {
+    "id": "单选题-25",
+    "type": "单选题",
+    "text": "在神经网络中，RNN特别适合处理：",
+    "options": [
+      {
+        "key": "A",
+        "text": "图像数据"
+      },
+      {
+        "key": "B",
+        "text": "图像分类问题"
+      },
+      {
+        "key": "C",
+        "text": "序列数据（如文本和时间序列）"
+      },
+      {
+        "key": "D",
+        "text": "回归问题"
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "explanation": "RNN 特别适合处理序列数据，可以处理时间序列和文本等连续数据。",
+    "category": "人工智能理论基础",
+    "difficulty": "简单",
+    "sourceRow": 25
+  },
+  {
+    "id": "单选题-26",
+    "type": "单选题",
+    "text": "在神经网络中，批量归一化（Batch Normalization）的作用是什么？",
+    "options": [
+      {
+        "key": "A",
+        "text": "增加网络深度"
+      },
+      {
+        "key": "B",
+        "text": "加速训练，避免梯度消失"
+      },
+      {
+        "key": "C",
+        "text": "提高非线性能力"
+      },
+      {
+        "key": "D",
+        "text": "使数据分布标准化，保持均值和方差稳定"
+      }
+    ],
+    "answer": [
+      "D"
+    ],
+    "explanation": "批量归一化通过标准化输入，保持每层的均值和方差稳定，帮助加速训练并稳定网络学习。",
+    "category": "人工智能理论基础",
+    "difficulty": "简单",
+    "sourceRow": 26
+  },
+  {
+    "id": "单选题-27",
+    "type": "单选题",
+    "text": "卷积神经网络（CNN）中的卷积操作主要用于什么？",
+    "options": [
+      {
+        "key": "A",
+        "text": "提取图像的特征"
+      },
+      {
+        "key": "B",
+        "text": "缩小图像的大小"
+      },
+      {
+        "key": "C",
+        "text": "增加图像的通道数"
+      },
+      {
+        "key": "D",
+        "text": "减少计算时间"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "卷积操作通过提取图像中的局部特征（如边缘、纹理）来逐步构建高层次的特征表示。",
+    "category": "人工智能理论基础",
+    "difficulty": "普通",
+    "sourceRow": 27
+  },
+  {
+    "id": "单选题-28",
+    "type": "单选题",
+    "text": "对于长短时记忆（LSTM）网络，哪种机制使得它能够有效地解决传统RNN的“梯度消失”问题？",
+    "options": [
+      {
+        "key": "A",
+        "text": "激活函数的非线性特性"
+      },
+      {
+        "key": "B",
+        "text": "长期依赖的门控机制（如输入门、遗忘门、输出门）"
+      },
+      {
+        "key": "C",
+        "text": "使用ReLU作为激活函数"
+      },
+      {
+        "key": "D",
+        "text": "使用批量归一化"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "LSTM通过引入门控机制（输入门、遗忘门和输出门）控制信息的流动，从而有效地保留长期依赖的信息，克服了传统RNN在训练过程中梯度消失的问题。",
+    "category": "人工智能理论基础",
+    "difficulty": "普通",
+    "sourceRow": 28
+  },
+  {
+    "id": "单选题-29",
+    "type": "单选题",
+    "text": "以下哪种模型最适合用于机器翻译任务？",
+    "options": [
+      {
+        "key": "A",
+        "text": "CNN"
+      },
+      {
+        "key": "B",
+        "text": "RNN"
+      },
+      {
+        "key": "C",
+        "text": "Transformer"
+      },
+      {
+        "key": "D",
+        "text": "自编码器"
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "explanation": "Transformer模型在机器翻译中表现优秀，尤其是通过自注意力机制。",
+    "category": "人工智能理论基础",
+    "difficulty": "普通",
+    "sourceRow": 29
+  },
+  {
+    "id": "单选题-30",
+    "type": "单选题",
+    "text": "Transformer模型与传统的RNN的主要区别是：",
+    "options": [
+      {
+        "key": "A",
+        "text": "Transformer使用卷积操作"
+      },
+      {
+        "key": "B",
+        "text": "Transformer使用自注意力机制"
+      },
+      {
+        "key": "C",
+        "text": "Transformer不需要反向传播"
+      },
+      {
+        "key": "D",
+        "text": "Transformer处理的任务更简单"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "Transformer模型的核心创新是自注意力机制，它不依赖于传统的递归结构，而是通过全局信息加权来处理序列数据。",
+    "category": "人工智能理论基础",
+    "difficulty": "普通",
+    "sourceRow": 30
+  },
+  {
+    "id": "单选题-31",
+    "type": "单选题",
+    "text": "数据集Cityscapes主要用于评估哪种类型的任务？",
+    "options": [
+      {
+        "key": "A",
+        "text": "物体检测"
+      },
+      {
+        "key": "B",
+        "text": "人脸识别"
+      },
+      {
+        "key": "C",
+        "text": "场景解析和语义分割"
+      },
+      {
+        "key": "D",
+        "text": "图像分类"
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "explanation": "Cityscapes 数据集专注于城市环境中的图像分割任务，提供了丰富的标注用于评估模型的分割性能。",
+    "category": "数据采集与标注",
+    "difficulty": "简单",
+    "sourceRow": 31
+  },
+  {
+    "id": "单选题-32",
+    "type": "单选题",
+    "text": "目标检测数据集通常包含哪些信息？",
+    "options": [
+      {
+        "key": "A",
+        "text": "仅类别标签"
+      },
+      {
+        "key": "B",
+        "text": "类别标签和关键点"
+      },
+      {
+        "key": "C",
+        "text": "类别标签和边界框"
+      },
+      {
+        "key": "D",
+        "text": "像素级类别标签"
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "explanation": "目标检测需要类别标签和目标位置（边界框）。",
+    "category": "数据采集与标注",
+    "difficulty": "简单",
+    "sourceRow": 32
+  },
+  {
+    "id": "单选题-33",
+    "type": "单选题",
+    "text": "语义分割数据集与目标检测数据集的主要区别是？",
+    "options": [
+      {
+        "key": "A",
+        "text": "是否包含目标类别"
+      },
+      {
+        "key": "B",
+        "text": "是否提供像素级标签"
+      },
+      {
+        "key": "C",
+        "text": "是否标注关键点"
+      },
+      {
+        "key": "D",
+        "text": "是否支持多个类别"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "语义分割任务需要为每个像素提供类别标签，而目标检测使用边界框。",
+    "category": "数据采集与标注",
+    "difficulty": "简单",
+    "sourceRow": 33
+  },
+  {
+    "id": "单选题-34",
+    "type": "单选题",
+    "text": "COCO 数据集中，目标检测的标注格式采用哪种方式？",
+    "options": [
+      {
+        "key": "A",
+        "text": "Bounding Box"
+      },
+      {
+        "key": "B",
+        "text": "Segmentation Mask"
+      },
+      {
+        "key": "C",
+        "text": "Keypoints"
+      },
+      {
+        "key": "D",
+        "text": "以上都是"
+      }
+    ],
+    "answer": [
+      "D"
+    ],
+    "explanation": "COCO 数据集支持多种标注格式，包括边界框、分割掩码和关键点。",
+    "category": "数据采集与标注",
+    "difficulty": "普通",
+    "sourceRow": 34
+  },
+  {
+    "id": "单选题-35",
+    "type": "单选题",
+    "text": "以下哪项工作属于数据预处理的内容？",
+    "options": [
+      {
+        "key": "A",
+        "text": "选择训练集和测试集"
+      },
+      {
+        "key": "B",
+        "text": "对数据进行标准化或归一化"
+      },
+      {
+        "key": "C",
+        "text": "模型选择和评估"
+      },
+      {
+        "key": "D",
+        "text": "调整模型的超参数"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "数据预处理包括对数据进行标准化、归一化等处理，使其适合于输入模型。",
+    "category": "数据采集与标注",
+    "difficulty": "简单",
+    "sourceRow": 35
+  },
+  {
+    "id": "单选题-36",
+    "type": "单选题",
+    "text": "什么是“标签平衡”问题？",
+    "options": [
+      {
+        "key": "A",
+        "text": "数据集的标签种类过多"
+      },
+      {
+        "key": "B",
+        "text": "数据集中的标签数量分布不均衡，导致模型偏向某些类别"
+      },
+      {
+        "key": "C",
+        "text": "标签与特征没有关系"
+      },
+      {
+        "key": "D",
+        "text": "标签数据缺失较多"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "标签平衡问题是指数据集中不同类别的标签数量差异较大，模型可能偏向出现频率较高的类别。",
+    "category": "数据采集与标注",
+    "difficulty": "简单",
+    "sourceRow": 36
+  },
+  {
+    "id": "单选题-37",
+    "type": "单选题",
+    "text": "数据标注的“人工标签”通常由什么方式实现？",
+    "options": [
+      {
+        "key": "A",
+        "text": "自动生成标签"
+      },
+      {
+        "key": "B",
+        "text": "数据清洗过程"
+      },
+      {
+        "key": "C",
+        "text": "由人工标注人员根据任务定义手动标注"
+      },
+      {
+        "key": "D",
+        "text": "数据归一化过程"
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "explanation": "人工标签通常由人工标注人员根据预定义的任务手动标注数据。",
+    "category": "数据采集与标注",
+    "difficulty": "简单",
+    "sourceRow": 37
+  },
+  {
+    "id": "单选题-38",
+    "type": "单选题",
+    "text": "数据预处理时，为什么需要进行“归一化”或“标准化”？",
+    "options": [
+      {
+        "key": "A",
+        "text": "增加数据的复杂度"
+      },
+      {
+        "key": "B",
+        "text": "保证模型训练过程的稳定性，加快收敛速度"
+      },
+      {
+        "key": "C",
+        "text": "提高数据的质量"
+      },
+      {
+        "key": "D",
+        "text": "提高模型的准确性"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "归一化和标准化可以让特征值处于相同的尺度，从而加速训练并稳定模型。",
+    "category": "数据采集与标注",
+    "difficulty": "简单",
+    "sourceRow": 38
+  },
+  {
+    "id": "单选题-39",
+    "type": "单选题",
+    "text": "目标检测任务中，通常会使用哪些数据增强方法来提高模型鲁棒性？",
+    "options": [
+      {
+        "key": "A",
+        "text": "随机裁剪和翻转"
+      },
+      {
+        "key": "B",
+        "text": "数据归一化"
+      },
+      {
+        "key": "C",
+        "text": "损失函数加权"
+      },
+      {
+        "key": "D",
+        "text": "聚类算法"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "随机裁剪和翻转等数据增强方法能够生成更多样化的样本，提高模型对不同场景的适应能力。",
+    "category": "数据采集与标注",
+    "difficulty": "普通",
+    "sourceRow": 39
+  },
+  {
+    "id": "单选题-40",
+    "type": "单选题",
+    "text": "在深度学习的图像预处理中，哪种操作最常用于归一化图像数据？",
+    "options": [
+      {
+        "key": "A",
+        "text": "直方图均衡化"
+      },
+      {
+        "key": "B",
+        "text": "Z-score 归一化"
+      },
+      {
+        "key": "C",
+        "text": "亮度增强"
+      },
+      {
+        "key": "D",
+        "text": "旋转"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "Z-score 归一化（均值为 0，标准差为 1）是常见的归一化方法之一。",
+    "category": "数据采集与标注",
+    "difficulty": "普通",
+    "sourceRow": 40
+  },
+  {
+    "id": "单选题-41",
+    "type": "单选题",
+    "text": "在目标检测任务的图像预处理中，通常需要进行哪项操作？",
+    "options": [
+      {
+        "key": "A",
+        "text": "仅改变图像尺寸"
+      },
+      {
+        "key": "B",
+        "text": "仅调整对比度"
+      },
+      {
+        "key": "C",
+        "text": "仅进行亮度归一化"
+      },
+      {
+        "key": "D",
+        "text": "归一化 + 形状调整"
+      }
+    ],
+    "answer": [
+      "D"
+    ],
+    "explanation": "目标检测任务通常需要对图像进行归一化，并调整形状以适配神经网络输入。",
+    "category": "数据采集与标注",
+    "difficulty": "普通",
+    "sourceRow": 41
+  },
+  {
+    "id": "单选题-42",
+    "type": "单选题",
+    "text": "ResNet网络在图像分类中的主要贡献是什么？",
+    "options": [
+      {
+        "key": "A",
+        "text": "使用全连接层处理图像特征"
+      },
+      {
+        "key": "B",
+        "text": "引入残差连接解决深度网络的梯度消失问题"
+      },
+      {
+        "key": "C",
+        "text": "提供了新的激活函数"
+      },
+      {
+        "key": "D",
+        "text": "采用非监督学习方法"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "ResNet通过引入残差连接，使得信息可以直接跨层传递，缓解了深度网络中的梯度消失问题，从而允许构建更深的网络。",
+    "category": "模型搭建与开发",
+    "difficulty": "简单",
+    "sourceRow": 42
+  },
+  {
+    "id": "单选题-43",
+    "type": "单选题",
+    "text": "ResNet 网络的核心思想是什么？",
+    "options": [
+      {
+        "key": "A",
+        "text": "采用更小的卷积核"
+      },
+      {
+        "key": "B",
+        "text": "采用密集连接"
+      },
+      {
+        "key": "C",
+        "text": "采用残差连接"
+      },
+      {
+        "key": "D",
+        "text": "采用 Transformer 结构"
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "explanation": "ResNet 通过 残差连接 解决深度网络的梯度消失问题。",
+    "category": "模型搭建与开发",
+    "difficulty": "简单",
+    "sourceRow": 43
+  },
+  {
+    "id": "单选题-44",
+    "type": "单选题",
+    "text": "VGG 网络的主要特点是？",
+    "options": [
+      {
+        "key": "A",
+        "text": "使用多个小卷积核堆叠"
+      },
+      {
+        "key": "B",
+        "text": "采用注意力机制"
+      },
+      {
+        "key": "C",
+        "text": "采用自回归结构"
+      },
+      {
+        "key": "D",
+        "text": "采用 Transformer 结构"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "VGG 通过 3x3 小卷积核 堆叠，提高模型的表达能力。",
+    "category": "模型搭建与开发",
+    "difficulty": "简单",
+    "sourceRow": 44
+  },
+  {
+    "id": "单选题-45",
+    "type": "单选题",
+    "text": "Inception 网络中的 1x1 卷积的作用是什么？",
+    "options": [
+      {
+        "key": "A",
+        "text": "降低计算量"
+      },
+      {
+        "key": "B",
+        "text": "仅用于图像分类"
+      },
+      {
+        "key": "C",
+        "text": "主要用于 NLP 任务"
+      },
+      {
+        "key": "D",
+        "text": "提取全局特征"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "1x1 卷积用于 降维，减少计算量，同时提升模型表达能力。",
+    "category": "模型搭建与开发",
+    "difficulty": "普通",
+    "sourceRow": 45
+  },
+  {
+    "id": "单选题-46",
+    "type": "单选题",
+    "text": "在深度学习中，Batch Normalization（BN）的主要作用是什么？",
+    "options": [
+      {
+        "key": "A",
+        "text": "仅加快训练速度"
+      },
+      {
+        "key": "B",
+        "text": "仅减少过拟合"
+      },
+      {
+        "key": "C",
+        "text": "归一化输入特征，提高训练稳定性"
+      },
+      {
+        "key": "D",
+        "text": "仅适用于 CNN"
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "explanation": "BN 归一化特征，使训练更稳定，并减少梯度消失问题。",
+    "category": "模型搭建与开发",
+    "difficulty": "普通",
+    "sourceRow": 46
+  },
+  {
+    "id": "单选题-47",
+    "type": "单选题",
+    "text": "Swin Transformer 相比于 ViT 的改进点是什么？",
+    "options": [
+      {
+        "key": "A",
+        "text": "采用滑动窗口注意力机制"
+      },
+      {
+        "key": "B",
+        "text": "采用更大的数据集"
+      },
+      {
+        "key": "C",
+        "text": "仅适用于 NLP"
+      },
+      {
+        "key": "D",
+        "text": "依赖 CNN 结构"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "Swin Transformer 采用 滑动窗口注意力机制，减少计算复杂度。",
+    "category": "模型搭建与开发",
+    "difficulty": "普通",
+    "sourceRow": 47
+  },
+  {
+    "id": "单选题-48",
+    "type": "单选题",
+    "text": "MobileNet 采用的关键技术是什么？",
+    "options": [
+      {
+        "key": "A",
+        "text": "残差连接"
+      },
+      {
+        "key": "B",
+        "text": "自注意力机制"
+      },
+      {
+        "key": "C",
+        "text": "深度可分离卷积"
+      },
+      {
+        "key": "D",
+        "text": "Transformer 结构"
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "explanation": "MobileNet 采用 深度可分离卷积，减少计算量，提高效率。",
+    "category": "模型搭建与开发",
+    "difficulty": "普通",
+    "sourceRow": 48
+  },
+  {
+    "id": "单选题-49",
+    "type": "单选题",
+    "text": "在ImageNet上预训练的VGG网络主要贡献是什么？",
+    "options": [
+      {
+        "key": "A",
+        "text": "引入多层卷积堆叠以提取高级特征"
+      },
+      {
+        "key": "B",
+        "text": "采用自注意力机制"
+      },
+      {
+        "key": "C",
+        "text": "提出残差连接"
+      },
+      {
+        "key": "D",
+        "text": "改进梯度下降算法"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "VGG网络通过堆叠多层小卷积核来提取复杂的图像特征，是一种有效的特征提取方法。",
+    "category": "模型搭建与开发",
+    "difficulty": "普通",
+    "sourceRow": 49
+  },
+  {
+    "id": "单选题-50",
+    "type": "单选题",
+    "text": "图像分类任务中，ResNet的残差连接主要解决了什么问题？",
+    "options": [
+      {
+        "key": "A",
+        "text": "梯度爆炸"
+      },
+      {
+        "key": "B",
+        "text": "梯度消失"
+      },
+      {
+        "key": "C",
+        "text": "模型过拟合"
+      },
+      {
+        "key": "D",
+        "text": "数据稀疏"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "ResNet通过残差连接允许梯度直接跨层传递，有效缓解了深层网络的梯度消失问题。",
+    "category": "模型搭建与开发",
+    "difficulty": "普通",
+    "sourceRow": 50
+  },
+  {
+    "id": "单选题-51",
+    "type": "单选题",
+    "text": "Swin Transformer 为什么适用于计算机视觉任务？",
+    "options": [
+      {
+        "key": "A",
+        "text": "仅用于 NLP"
+      },
+      {
+        "key": "B",
+        "text": "采用 CNN 结构"
+      },
+      {
+        "key": "C",
+        "text": "采用分层 Transformer 设计"
+      },
+      {
+        "key": "D",
+        "text": "仅适用于小数据集"
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "explanation": "Swin Transformer 采用 分层设计，减少计算复杂度，提高视觉任务表现。",
+    "category": "模型搭建与开发",
+    "difficulty": "困难",
+    "sourceRow": 51
+  },
+  {
+    "id": "单选题-52",
+    "type": "单选题",
+    "text": "ViT（Vision Transformer）相比 CNN 的优势是什么？",
+    "options": [
+      {
+        "key": "A",
+        "text": "更擅长提取局部特征"
+      },
+      {
+        "key": "B",
+        "text": "计算量更低"
+      },
+      {
+        "key": "C",
+        "text": "依赖自注意力机制获取全局信息"
+      },
+      {
+        "key": "D",
+        "text": "仅适用于目标检测"
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "explanation": "ViT 依赖 自注意力机制，有效提取全局特征。",
+    "category": "模型搭建与开发",
+    "difficulty": "困难",
+    "sourceRow": 52
+  },
+  {
+    "id": "单选题-53",
+    "type": "单选题",
+    "text": "CBAM（Convolutional Block Attention Module）的核心模块包含？",
+    "options": [
+      {
+        "key": "A",
+        "text": "仅通道注意力"
+      },
+      {
+        "key": "B",
+        "text": "仅空间注意力"
+      },
+      {
+        "key": "C",
+        "text": "先通道注意力，再空间注意力"
+      },
+      {
+        "key": "D",
+        "text": "仅适用于 NLP"
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "explanation": "CBAM 采用 通道注意力 + 空间注意力，增强特征表达能力。",
+    "category": "模型搭建与开发",
+    "difficulty": "简单",
+    "sourceRow": 53
+  },
+  {
+    "id": "单选题-54",
+    "type": "单选题",
+    "text": "Self-Attention 机制最早在哪个领域提出？",
+    "options": [
+      {
+        "key": "A",
+        "text": "计算机视觉"
+      },
+      {
+        "key": "B",
+        "text": "自然语言处理"
+      },
+      {
+        "key": "C",
+        "text": "医学影像分析"
+      },
+      {
+        "key": "D",
+        "text": "机器人控制"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "Self-Attention 最早在 NLP 领域（Transformer 结构）提出，并扩展到 CV 任务。",
+    "category": "模型搭建与开发",
+    "difficulty": "简单",
+    "sourceRow": 54
+  },
+  {
+    "id": "单选题-55",
+    "type": "单选题",
+    "text": "下面哪种方法可以提高 SENet 模块的计算效率？",
+    "options": [
+      {
+        "key": "A",
+        "text": "使用 1x1 卷积减少通道维度"
+      },
+      {
+        "key": "B",
+        "text": "增加全连接层的数量"
+      },
+      {
+        "key": "C",
+        "text": "仅增加网络深度"
+      },
+      {
+        "key": "D",
+        "text": "使用 Transformer 替代 SENet"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "1x1 卷积可 降低计算量，同时保持有效信息流。",
+    "category": "模型搭建与开发",
+    "difficulty": "简单",
+    "sourceRow": 55
+  },
+  {
+    "id": "单选题-56",
+    "type": "单选题",
+    "text": "在 ResNet 中，SE 模块的作用是什么？",
+    "options": [
+      {
+        "key": "A",
+        "text": "提高残差连接的梯度流"
+      },
+      {
+        "key": "B",
+        "text": "通过注意力机制增强特征提取能力"
+      },
+      {
+        "key": "C",
+        "text": "减少计算量，提高推理速度"
+      },
+      {
+        "key": "D",
+        "text": "仅适用于 NLP 任务"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "SE 模块通过 通道注意力 适配不同特征的权重，提高网络性能。",
+    "category": "模型搭建与开发",
+    "difficulty": "简单",
+    "sourceRow": 56
+  },
+  {
+    "id": "单选题-57",
+    "type": "单选题",
+    "text": "采用注意力机制的主要优势是什么？",
+    "options": [
+      {
+        "key": "A",
+        "text": "提高计算速度"
+      },
+      {
+        "key": "B",
+        "text": "仅适用于 NLP"
+      },
+      {
+        "key": "C",
+        "text": "增强重要特征的权重，提高模型表现"
+      },
+      {
+        "key": "D",
+        "text": "仅适用于小型数据集"
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "explanation": "注意力机制通过 增强关键特征权重，提高模型泛化能力。",
+    "category": "模型搭建与开发",
+    "difficulty": "简单",
+    "sourceRow": 57
+  },
+  {
+    "id": "单选题-58",
+    "type": "单选题",
+    "text": "使用全连接层作为图像分类模型的输出层，通常需要加上什么激活函数？",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sigmoid"
+      },
+      {
+        "key": "B",
+        "text": "Softmax"
+      },
+      {
+        "key": "C",
+        "text": "ReLU"
+      },
+      {
+        "key": "D",
+        "text": "Tanh"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "Softmax激活函数将输出转化为概率分布，适用于多类别分类任务。",
+    "category": "模型搭建与开发",
+    "difficulty": "普通",
+    "sourceRow": 58
+  },
+  {
+    "id": "单选题-59",
+    "type": "单选题",
+    "text": "CBAM 相比 SENet 的优势是什么？",
+    "options": [
+      {
+        "key": "A",
+        "text": "仅降低计算量"
+      },
+      {
+        "key": "B",
+        "text": "结合通道注意力和空间注意力，提高特征表达"
+      },
+      {
+        "key": "C",
+        "text": "仅适用于目标检测"
+      },
+      {
+        "key": "D",
+        "text": "计算复杂度更低"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "CBAM 结合 通道注意力 + 空间注意力，增强特征表达能力。",
+    "category": "模型搭建与开发",
+    "difficulty": "困难",
+    "sourceRow": 59
+  },
+  {
+    "id": "单选题-60",
+    "type": "单选题",
+    "text": "下面哪种方法可以降低注意力机制的计算复杂度？",
+    "options": [
+      {
+        "key": "A",
+        "text": "使用局部注意力"
+      },
+      {
+        "key": "B",
+        "text": "增加网络深度"
+      },
+      {
+        "key": "C",
+        "text": "仅使用全连接层"
+      },
+      {
+        "key": "D",
+        "text": "采用更大的卷积核"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "局部注意力减少计算量，使其适用于高分辨率任务。",
+    "category": "模型搭建与开发",
+    "difficulty": "困难",
+    "sourceRow": 60
+  },
+  {
+    "id": "单选题-61",
+    "type": "单选题",
+    "text": "Swin Transformer 通过哪种方式降低计算复杂度？",
+    "options": [
+      {
+        "key": "A",
+        "text": "使用滑动窗口注意力机制"
+      },
+      {
+        "key": "B",
+        "text": "增加网络深度"
+      },
+      {
+        "key": "C",
+        "text": "仅适用于 NLP 任务"
+      },
+      {
+        "key": "D",
+        "text": "仅使用全连接层"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "Swin Transformer 采用 滑动窗口注意力，减少计算负担，提高计算效率。",
+    "category": "模型搭建与开发",
+    "difficulty": "困难",
+    "sourceRow": 61
+  },
+  {
+    "id": "单选题-62",
+    "type": "单选题",
+    "text": "在 ViT 中，Patch Embedding 的主要作用是什么？",
+    "options": [
+      {
+        "key": "A",
+        "text": "仅用于 NLP"
+      },
+      {
+        "key": "B",
+        "text": "将图像划分为小块，并进行线性变换"
+      },
+      {
+        "key": "C",
+        "text": "仅适用于小型数据集"
+      },
+      {
+        "key": "D",
+        "text": "仅用于目标检测"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "Patch Embedding 将图像划分为 Patch，并进行线性变换，适配 Transformer 结构。",
+    "category": "模型搭建与开发",
+    "difficulty": "困难",
+    "sourceRow": 62
+  },
+  {
+    "id": "单选题-63",
+    "type": "单选题",
+    "text": "Self-Attention 计算的时间复杂度是多少？",
+    "options": [
+      {
+        "key": "A",
+        "text": "O(N)"
+      },
+      {
+        "key": "B",
+        "text": "O(N²)"
+      },
+      {
+        "key": "C",
+        "text": "O(logN)"
+      },
+      {
+        "key": "D",
+        "text": "O(1)"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "Self-Attention 计算量 随着输入尺寸增加呈 O(N²) 增长，计算成本较高。",
+    "category": "模型搭建与开发",
+    "difficulty": "困难",
+    "sourceRow": 63
+  },
+  {
+    "id": "单选题-64",
+    "type": "单选题",
+    "text": "选择较大的 batch size 训练深度学习模型时，通常会导致？",
+    "options": [
+      {
+        "key": "A",
+        "text": "模型收敛速度更快"
+      },
+      {
+        "key": "B",
+        "text": "训练不稳定"
+      },
+      {
+        "key": "C",
+        "text": "需要更多内存，但梯度估计更稳定"
+      },
+      {
+        "key": "D",
+        "text": "需要更少的 GPU 计算资源"
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "explanation": "较大的 batch size 增加计算需求，但使梯度估计更加稳定。",
+    "category": "模型训练与测试",
+    "difficulty": "简单",
+    "sourceRow": 64
+  },
+  {
+    "id": "单选题-65",
+    "type": "单选题",
+    "text": "在深度学习中，超参数调优最常用的方法之一是？",
+    "options": [
+      {
+        "key": "A",
+        "text": "随机搜索（Random Search）"
+      },
+      {
+        "key": "B",
+        "text": "自动选择最优超参数"
+      },
+      {
+        "key": "C",
+        "text": "仅手动调整"
+      },
+      {
+        "key": "D",
+        "text": "固定一个超参数值，不做调整"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "随机搜索 通过随机采样不同超参数组合，找到最优配置。",
+    "category": "模型训练与测试",
+    "difficulty": "困难",
+    "sourceRow": 65
+  },
+  {
+    "id": "单选题-66",
+    "type": "单选题",
+    "text": "在深度学习训练中，“早停（Early Stopping）”的作用是什么？",
+    "options": [
+      {
+        "key": "A",
+        "text": "提高模型的复杂度"
+      },
+      {
+        "key": "B",
+        "text": "防止模型在验证集上出现过拟合"
+      },
+      {
+        "key": "C",
+        "text": "提供更多的训练数据"
+      },
+      {
+        "key": "D",
+        "text": "增加训练时间"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "早停技术通过在验证集性能不再提高时停止训练，防止过拟合。",
+    "category": "模型训练与测试",
+    "difficulty": "简单",
+    "sourceRow": 66
+  },
+  {
+    "id": "单选题-67",
+    "type": "单选题",
+    "text": "以下哪种优化方法能够动态调整学习率，从而加速深度学习模型的收敛？",
+    "options": [
+      {
+        "key": "A",
+        "text": "随机梯度下降（SGD）"
+      },
+      {
+        "key": "B",
+        "text": "动量法（Momentum）"
+      },
+      {
+        "key": "C",
+        "text": "自适应学习率优化方法（如 Adam、RMSProp）"
+      },
+      {
+        "key": "D",
+        "text": "正则化方法（如 Dropout）"
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "explanation": "自适应学习率优化方法（如 Adam 和 RMSProp）能够根据梯度更新的历史信息动态调整学习率，提高收敛速度和稳定性。相比于固定学习率的优化方法，它们更适合处理深度学习中的复杂问题。",
+    "category": "模型训练与测试",
+    "difficulty": "简单",
+    "sourceRow": 67
+  },
+  {
+    "id": "单选题-68",
+    "type": "单选题",
+    "text": "在大语言模型的训练中，“学习率”（Learning Rate）的主要作用是什么？",
+    "options": [
+      {
+        "key": "A",
+        "text": "控制模型的训练速度"
+      },
+      {
+        "key": "B",
+        "text": "控制模型的参数更新速度"
+      },
+      {
+        "key": "C",
+        "text": "控制模型的生成速度"
+      },
+      {
+        "key": "D",
+        "text": "控制模型的推理速度"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "学习率的主要作用是控制模型在训练过程中参数更新的速度。学习率决定了每次迭代中参数调整的幅度，学习率过高可能导致模型训练不稳定，过低则会使训练过程缓慢。",
+    "category": "模型训练与测试",
+    "difficulty": "简单",
+    "sourceRow": 68
+  },
+  {
+    "id": "单选题-69",
+    "type": "单选题",
+    "text": "在大语言模型的训练中，学习率调度（Learning Rate Scheduling）的主要目的是什么？",
+    "options": [
+      {
+        "key": "A",
+        "text": "提高模型的训练速度"
+      },
+      {
+        "key": "B",
+        "text": "防止模型过拟合"
+      },
+      {
+        "key": "C",
+        "text": "优化模型的训练过程，提高收敛速度"
+      },
+      {
+        "key": "D",
+        "text": "增加模型的参数数量"
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "explanation": "学习率调度（Learning Rate Scheduling）的主要目的是优化模型的训练过程，提高收敛速度。通过动态调整学习率，模型可以在训练初期快速收敛，同时在后期避免因学习率过大导致的震荡，从而实现更高效且稳定的训练。",
+    "category": "模型训练与测试",
+    "difficulty": "简单",
+    "sourceRow": 69
+  },
+  {
+    "id": "单选题-70",
+    "type": "单选题",
+    "text": "以下哪种技术与神经网络中的 Dropout 操作具有类似的作用？",
+    "options": [
+      {
+        "key": "A",
+        "text": "Boosting"
+      },
+      {
+        "key": "B",
+        "text": "Bagging"
+      },
+      {
+        "key": "C",
+        "text": "Stacking"
+      },
+      {
+        "key": "D",
+        "text": "Mapping"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "Dropout 的原理类似于 Bagging，它通过随机忽略部分神经元来降低模型的过拟合风险，从而实现正则化。",
+    "category": "模型训练与测试",
+    "difficulty": "普通",
+    "sourceRow": 70
+  },
+  {
+    "id": "单选题-71",
+    "type": "单选题",
+    "text": "在训练神经网络时，若损失函数（loss）在初始的几个 epochs 内没有明显下降，可能的原因是？",
+    "options": [
+      {
+        "key": "A",
+        "text": "学习率（learning rate）设置过低"
+      },
+      {
+        "key": "B",
+        "text": "正则化参数（regularization parameter）过高"
+      },
+      {
+        "key": "C",
+        "text": "模型可能陷入局部最小值"
+      },
+      {
+        "key": "D",
+        "text": "以上原因均可能导致这种现象"
+      }
+    ],
+    "answer": [
+      "D"
+    ],
+    "explanation": "损失函数无法下降可能是多种原因共同作用，如学习率设置不当、正则化过强限制了模型的学习能力，或模型陷入局部最优解。",
+    "category": "模型训练与测试",
+    "difficulty": "普通",
+    "sourceRow": 71
+  },
+  {
+    "id": "单选题-72",
+    "type": "单选题",
+    "text": "在大语言模型的训练中，什么是“梯度裁剪”（Gradient Clipping）的主要作用？",
+    "options": [
+      {
+        "key": "A",
+        "text": "提高模型的训练速度"
+      },
+      {
+        "key": "B",
+        "text": "防止梯度爆炸"
+      },
+      {
+        "key": "C",
+        "text": "防止梯度消失"
+      },
+      {
+        "key": "D",
+        "text": "增加模型的参数数量"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "梯度裁剪的主要作用是防止梯度爆炸。在训练深度神经网络时，梯度过大可能导致模型参数更新不稳定，甚至使模型无法收敛。梯度裁剪通过设定一个阈值，对超过该阈值的梯度进行缩放或裁剪，从而确保梯度保持在合理范围内，稳定模型的训练过程。",
+    "category": "模型训练与测试",
+    "difficulty": "普通",
+    "sourceRow": 72
+  },
+  {
+    "id": "单选题-73",
+    "type": "单选题",
+    "text": "在语义分割中，如何应对过拟合问题？",
+    "options": [
+      {
+        "key": "A",
+        "text": "增加更多训练数据"
+      },
+      {
+        "key": "B",
+        "text": "提高学习率"
+      },
+      {
+        "key": "C",
+        "text": "减少网络层数"
+      },
+      {
+        "key": "D",
+        "text": "所有上述选项都是正确的"
+      }
+    ],
+    "answer": [
+      "D"
+    ],
+    "explanation": "应对过拟合的方法包括但不限于增加更多的训练数据、正则化技术（如Dropout）、减少模型复杂度等。",
+    "category": "模型训练与测试",
+    "difficulty": "普通",
+    "sourceRow": 73
+  },
+  {
+    "id": "单选题-74",
+    "type": "单选题",
+    "text": "在监督学习中，哪个指标通常用于评估分类模型的性能？",
+    "options": [
+      {
+        "key": "A",
+        "text": "均方误差（MSE）"
+      },
+      {
+        "key": "B",
+        "text": "准确率（Accuracy）"
+      },
+      {
+        "key": "C",
+        "text": "平均绝对误差（MAE）"
+      },
+      {
+        "key": "D",
+        "text": "轮廓系数（Silhouette Coefficient）"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "准确率是评估分类模型的常用指标。MSE和MAE是回归问题的评估指标，轮廓系数用于评估聚类质量。",
+    "category": "模型训练与测试",
+    "difficulty": "简单",
+    "sourceRow": 74
+  },
+  {
+    "id": "单选题-75",
+    "type": "单选题",
+    "text": "在图像分类任务中，哪个指标最常用于衡量模型的整体分类准确性？",
+    "options": [
+      {
+        "key": "A",
+        "text": "精确率（Precision）"
+      },
+      {
+        "key": "B",
+        "text": "召回率（Recall）"
+      },
+      {
+        "key": "C",
+        "text": "准确率（Accuracy）"
+      },
+      {
+        "key": "D",
+        "text": "F1分数（F1 Score）"
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "explanation": "准确率表示分类正确的样本数占总样本数的比例，是衡量模型整体表现的基本指标。",
+    "category": "模型训练与测试",
+    "difficulty": "简单",
+    "sourceRow": 75
+  },
+  {
+    "id": "单选题-76",
+    "type": "单选题",
+    "text": "在图像分类任务中，混淆矩阵（Confusion Matrix）的核心作用是什么？",
+    "options": [
+      {
+        "key": "A",
+        "text": "提供模型的参数分布"
+      },
+      {
+        "key": "B",
+        "text": "描述模型在不同类别上的预测结果"
+      },
+      {
+        "key": "C",
+        "text": "显示训练过程中损失值的变化"
+      },
+      {
+        "key": "D",
+        "text": "可视化模型的预测概率"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "混淆矩阵显示了模型对每个类别的正确预测和错误预测的数量，是分析分类性能的重要工具。",
+    "category": "模型训练与测试",
+    "difficulty": "普通",
+    "sourceRow": 76
+  },
+  {
+    "id": "单选题-77",
+    "type": "单选题",
+    "text": "多分类任务中，宏平均（Macro-Averaging）是如何计算的？",
+    "options": [
+      {
+        "key": "A",
+        "text": "所有类别指标的加权平均值"
+      },
+      {
+        "key": "B",
+        "text": "所有类别指标的简单平均值"
+      },
+      {
+        "key": "C",
+        "text": "最多类别的指标值"
+      },
+      {
+        "key": "D",
+        "text": "仅考虑正确分类的类别"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "宏平均对所有类别的指标进行简单平均，不考虑类别样本数量的不平衡性。",
+    "category": "模型训练与测试",
+    "difficulty": "普通",
+    "sourceRow": 77
+  },
+  {
+    "id": "单选题-78",
+    "type": "单选题",
+    "text": "图像分类任务中的Top-k准确率指的是什么？",
+    "options": [
+      {
+        "key": "A",
+        "text": "前k个类别的召回率"
+      },
+      {
+        "key": "B",
+        "text": "模型预测的前k个类别中包含正确类别的比例"
+      },
+      {
+        "key": "C",
+        "text": "前k个样本的准确率"
+      },
+      {
+        "key": "D",
+        "text": "使用前k次训练的模型准确率"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "Top-k准确率在多类别分类任务中很常用，尤其是在模型可能给出多个预测结果时，它表示正确类别是否包含在前k个预测结果中。",
+    "category": "模型训练与测试",
+    "difficulty": "普通",
+    "sourceRow": 78
+  },
+  {
+    "id": "单选题-79",
+    "type": "单选题",
+    "text": "在YOLO模型中，目标检测任务的输出包括哪些信息？",
+    "options": [
+      {
+        "key": "A",
+        "text": "图像的标签"
+      },
+      {
+        "key": "B",
+        "text": "每个目标的类别概率和边界框位置"
+      },
+      {
+        "key": "C",
+        "text": "图像的颜色信息"
+      },
+      {
+        "key": "D",
+        "text": "图像的特征图"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "YOLO模型通过回归输出每个目标的类别和边界框位置，而不是进行分类和特征提取。",
+    "category": "计算机视觉基础",
+    "difficulty": "简单",
+    "sourceRow": 79
+  },
+  {
+    "id": "单选题-80",
+    "type": "单选题",
+    "text": "在移动端目标检测模型（如MobileNet系列）中，最重要的优化目标是什么？",
+    "options": [
+      {
+        "key": "A",
+        "text": "提高目标检测的精度"
+      },
+      {
+        "key": "B",
+        "text": "减少计算量和提高推理速度"
+      },
+      {
+        "key": "C",
+        "text": "增强多尺度检测能力"
+      },
+      {
+        "key": "D",
+        "text": "提高网络深度"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "移动端目标检测模型最重要的优化目标是减少计算量和提高推理速度，以适应资源受限的设备。",
+    "category": "计算机视觉基础",
+    "difficulty": "简单",
+    "sourceRow": 80
+  },
+  {
+    "id": "单选题-81",
+    "type": "单选题",
+    "text": "目标检测任务中的“边界框回归”主要是用来做什么？",
+    "options": [
+      {
+        "key": "A",
+        "text": "预测目标的类别"
+      },
+      {
+        "key": "B",
+        "text": "预测目标的大小和位置"
+      },
+      {
+        "key": "C",
+        "text": "优化损失函数"
+      },
+      {
+        "key": "D",
+        "text": "提升训练速度"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "边界框回归用于预测目标的位置和尺寸，是目标定位任务中的核心部分。",
+    "category": "计算机视觉基础",
+    "difficulty": "简单",
+    "sourceRow": 81
+  },
+  {
+    "id": "单选题-82",
+    "type": "单选题",
+    "text": "目标检测中的NMS（非最大抑制）主要用于什么任务？",
+    "options": [
+      {
+        "key": "A",
+        "text": "增加检测框数量"
+      },
+      {
+        "key": "B",
+        "text": "消除重复的框"
+      },
+      {
+        "key": "C",
+        "text": "提高训练速度"
+      },
+      {
+        "key": "D",
+        "text": "加速预测过程"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "NMS用于去除那些重叠度较高且得分较低的冗余框。",
+    "category": "计算机视觉基础",
+    "difficulty": "普通",
+    "sourceRow": 82
+  },
+  {
+    "id": "单选题-83",
+    "type": "单选题",
+    "text": "目标检测中，YOLOv3是如何处理不同尺度目标的？",
+    "options": [
+      {
+        "key": "A",
+        "text": "使用图像金字塔"
+      },
+      {
+        "key": "B",
+        "text": "使用特征金字塔网络（FPN）"
+      },
+      {
+        "key": "C",
+        "text": "在不同层进行多尺度预测"
+      },
+      {
+        "key": "D",
+        "text": "增加图像的分辨率"
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "explanation": "YOLOv3通过在不同的特征层上进行多尺度预测来处理不同尺度的目标。",
+    "category": "计算机视觉基础",
+    "difficulty": "普通",
+    "sourceRow": 83
+  },
+  {
+    "id": "单选题-84",
+    "type": "单选题",
+    "text": "目标检测任务中的“区域提议网络”（RPN）属于哪种类型的网络？",
+    "options": [
+      {
+        "key": "A",
+        "text": "分类网络"
+      },
+      {
+        "key": "B",
+        "text": "回归网络"
+      },
+      {
+        "key": "C",
+        "text": "生成候选框的网络"
+      },
+      {
+        "key": "D",
+        "text": "数据增强网络"
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "explanation": "RPN用于生成候选框，它是Faster R-CNN中的一个重要组件。",
+    "category": "计算机视觉基础",
+    "difficulty": "普通",
+    "sourceRow": 84
+  },
+  {
+    "id": "单选题-85",
+    "type": "单选题",
+    "text": "目标检测中，RetinaNet中引入的Focal Loss主要解决什么问题？",
+    "options": [
+      {
+        "key": "A",
+        "text": "增加训练速度"
+      },
+      {
+        "key": "B",
+        "text": "处理类别不平衡问题"
+      },
+      {
+        "key": "C",
+        "text": "改进目标分类精度"
+      },
+      {
+        "key": "D",
+        "text": "提高目标定位准确度"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "Focal Loss通过减少容易分类样本的损失，增强对难分类样本的关注，从而解决了类别不平衡问题。",
+    "category": "计算机视觉基础",
+    "difficulty": "普通",
+    "sourceRow": 85
+  },
+  {
+    "id": "单选题-86",
+    "type": "单选题",
+    "text": "在目标检测中，YOLOv3使用的激活函数是什么？",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sig"
+      },
+      {
+        "key": "B",
+        "text": "ReLU"
+      },
+      {
+        "key": "C",
+        "text": "Leaky ReLU"
+      },
+      {
+        "key": "D",
+        "text": "Tanh"
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "explanation": "YOLOv3使用Leaky ReLU作为激活函数，以减少死神经元的现象。",
+    "category": "计算机视觉基础",
+    "difficulty": "普通",
+    "sourceRow": 86
+  },
+  {
+    "id": "单选题-87",
+    "type": "单选题",
+    "text": "在目标检测中，YOLOv4引入了哪些技术来提高模型的性能？",
+    "options": [
+      {
+        "key": "A",
+        "text": "数据增强和特征金字塔网络（FPN）"
+      },
+      {
+        "key": "B",
+        "text": "数据增强和自注意力机制"
+      },
+      {
+        "key": "C",
+        "text": "迁移学习和特征金字塔网络（FPN）"
+      },
+      {
+        "key": "D",
+        "text": "迁移学习和卷积神经网络（CNN）"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "YOLOv4引入了数据增强和特征金字塔网络（FPN）等技术来提高检测精度和效率。",
+    "category": "计算机视觉基础",
+    "difficulty": "普通",
+    "sourceRow": 87
+  },
+  {
+    "id": "单选题-88",
+    "type": "单选题",
+    "text": "目标检测中，常见的单阶段检测模型是？",
+    "options": [
+      {
+        "key": "A",
+        "text": "Faster R-CNN"
+      },
+      {
+        "key": "B",
+        "text": "YOLO"
+      },
+      {
+        "key": "C",
+        "text": "Mask R-CNN"
+      },
+      {
+        "key": "D",
+        "text": "R-CNN"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "YOLO是常见的单阶段目标检测模型，它直接从图像中预测目标的位置和类别。",
+    "category": "计算机视觉基础",
+    "difficulty": "普通",
+    "sourceRow": 88
+  },
+  {
+    "id": "单选题-89",
+    "type": "单选题",
+    "text": "Transformer在目标检测中的应用主要是借助其哪一特点？",
+    "options": [
+      {
+        "key": "A",
+        "text": "捕捉长距离依赖关系"
+      },
+      {
+        "key": "B",
+        "text": "提供更高的计算效率"
+      },
+      {
+        "key": "C",
+        "text": "减少网络参数"
+      },
+      {
+        "key": "D",
+        "text": "优化卷积操作"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "Transformer通过自注意力机制能够捕捉输入特征的长距离依赖关系，增强了模型的表达能力。",
+    "category": "计算机视觉基础",
+    "difficulty": "普通",
+    "sourceRow": 89
+  },
+  {
+    "id": "单选题-90",
+    "type": "单选题",
+    "text": "在图像分类任务中，Dropout技术的作用是什么？",
+    "options": [
+      {
+        "key": "A",
+        "text": "增加训练样本量"
+      },
+      {
+        "key": "B",
+        "text": "随机丢弃神经元以减少过拟合"
+      },
+      {
+        "key": "C",
+        "text": "降低模型的计算复杂度"
+      },
+      {
+        "key": "D",
+        "text": "提高激活函数的非线性特性"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "Dropout技术通过在训练过程中随机丢弃部分神经元，减少节点间的依赖性，从而降低过拟合风险。",
+    "category": "计算机视觉基础",
+    "difficulty": "简单",
+    "sourceRow": 90
+  },
+  {
+    "id": "单选题-91",
+    "type": "单选题",
+    "text": "在图像分类任务中，Batch Normalization的主要作用是什么？",
+    "options": [
+      {
+        "key": "A",
+        "text": "降低学习率"
+      },
+      {
+        "key": "B",
+        "text": "加速训练并稳定模型"
+      },
+      {
+        "key": "C",
+        "text": "增大模型容量"
+      },
+      {
+        "key": "D",
+        "text": "提高测试数据的准确率"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "Batch Normalization通过标准化激活值，减小内部协变量偏移，加速训练并增强模型的稳定性。",
+    "category": "计算机视觉基础",
+    "difficulty": "简单",
+    "sourceRow": 91
+  },
+  {
+    "id": "单选题-92",
+    "type": "单选题",
+    "text": "在图像分类中，哪个模型常被用作预训练模型？",
+    "options": [
+      {
+        "key": "A",
+        "text": "R-CNN"
+      },
+      {
+        "key": "B",
+        "text": "YOLO"
+      },
+      {
+        "key": "C",
+        "text": "ResNet"
+      },
+      {
+        "key": "D",
+        "text": "Mask R-CNN"
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "explanation": "ResNet是一个经典的卷积神经网络模型，常用于图像分类的预训练，并通过迁移学习应用到其他任务中。",
+    "category": "计算机视觉基础",
+    "difficulty": "简单",
+    "sourceRow": 92
+  },
+  {
+    "id": "单选题-93",
+    "type": "单选题",
+    "text": "在多标签分类任务中，通常使用哪种激活函数来处理输出层？",
+    "options": [
+      {
+        "key": "A",
+        "text": "Softmax"
+      },
+      {
+        "key": "B",
+        "text": "Sigmoid"
+      },
+      {
+        "key": "C",
+        "text": "ReLU"
+      },
+      {
+        "key": "D",
+        "text": "Tanh"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "Sigmoid函数适用于多标签分类任务，因为它可以为每个输出节点独立生成概率值，而Softmax适用于单标签分类任务。",
+    "category": "计算机视觉基础",
+    "difficulty": "简单",
+    "sourceRow": 93
+  },
+  {
+    "id": "单选题-94",
+    "type": "单选题",
+    "text": "以下哪种是图像分类在安全领域中的应用？",
+    "options": [
+      {
+        "key": "A",
+        "text": "视频压缩"
+      },
+      {
+        "key": "B",
+        "text": "监控摄像头中的异常行为识别"
+      },
+      {
+        "key": "C",
+        "text": "图像修复"
+      },
+      {
+        "key": "D",
+        "text": "数据加密"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "图像分类技术可以对监控视频中的异常行为或可疑对象进行分类和检测，增强安全监控的智能化水平。",
+    "category": "计算机视觉基础",
+    "difficulty": "简单",
+    "sourceRow": 94
+  },
+  {
+    "id": "单选题-95",
+    "type": "单选题",
+    "text": "以下哪项是图像分类任务在文物保护领域的应用？",
+    "options": [
+      {
+        "key": "A",
+        "text": "文物历史信息挖掘"
+      },
+      {
+        "key": "B",
+        "text": "文物类型自动分类和标记"
+      },
+      {
+        "key": "C",
+        "text": "文物材质预测"
+      },
+      {
+        "key": "D",
+        "text": "文物修复算法开发"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "图像分类技术可用于自动分类文物类型，比如区分陶器、金属器或石器等，便于档案管理和研究。",
+    "category": "计算机视觉基础",
+    "difficulty": "简单",
+    "sourceRow": 95
+  },
+  {
+    "id": "单选题-96",
+    "type": "单选题",
+    "text": "在电子商务中，图像分类技术最常见的应用是？",
+    "options": [
+      {
+        "key": "A",
+        "text": "商品推荐系统"
+      },
+      {
+        "key": "B",
+        "text": "商品类别的自动化识别与归类"
+      },
+      {
+        "key": "C",
+        "text": "库存管理优化"
+      },
+      {
+        "key": "D",
+        "text": "用户行为分析"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "图像分类技术可以自动识别和归类商品图片，帮助电商平台实现商品的高效管理和展示。",
+    "category": "计算机视觉基础",
+    "difficulty": "简单",
+    "sourceRow": 96
+  },
+  {
+    "id": "单选题-97",
+    "type": "单选题",
+    "text": "在环境监测领域，图像分类技术可以应用于以下哪种任务？",
+    "options": [
+      {
+        "key": "A",
+        "text": "分析温度变化趋势"
+      },
+      {
+        "key": "B",
+        "text": "垃圾分类与识别"
+      },
+      {
+        "key": "C",
+        "text": "水资源管理"
+      },
+      {
+        "key": "D",
+        "text": "气候建模"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "图像分类技术可用于对垃圾图像进行分类识别，从而辅助垃圾分类处理，提高环境监测的效率。",
+    "category": "计算机视觉基础",
+    "difficulty": "简单",
+    "sourceRow": 97
+  },
+  {
+    "id": "单选题-98",
+    "type": "单选题",
+    "text": "在图像分类任务中，为什么需要分批处理（mini-batch）？",
+    "options": [
+      {
+        "key": "A",
+        "text": "减少训练时间并稳定梯度更新"
+      },
+      {
+        "key": "B",
+        "text": "增大模型容量"
+      },
+      {
+        "key": "C",
+        "text": "减少数据增强的复杂性"
+      },
+      {
+        "key": "D",
+        "text": "提高模型的预测速度"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "Mini-batch训练可以降低内存消耗并稳定梯度更新，提高模型的训练效率。",
+    "category": "计算机视觉基础",
+    "difficulty": "普通",
+    "sourceRow": 98
+  },
+  {
+    "id": "单选题-99",
+    "type": "单选题",
+    "text": "在图像分类任务中使用小卷积核（如3x3）的优点是？",
+    "options": [
+      {
+        "key": "A",
+        "text": "提高模型的参数量"
+      },
+      {
+        "key": "B",
+        "text": "增强特征提取能力并减少参数量"
+      },
+      {
+        "key": "C",
+        "text": "减少卷积操作的次数"
+      },
+      {
+        "key": "D",
+        "text": "避免过拟合"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "小卷积核可以提取细粒度特征，同时减少参数量，提高计算效率。",
+    "category": "计算机视觉基础",
+    "difficulty": "普通",
+    "sourceRow": 99
+  },
+  {
+    "id": "单选题-100",
+    "type": "单选题",
+    "text": "哪种技术可以避免图像分类任务中模型权重的随机初始化？",
+    "options": [
+      {
+        "key": "A",
+        "text": "Xavier初始化"
+      },
+      {
+        "key": "B",
+        "text": "Batch Normalization"
+      },
+      {
+        "key": "C",
+        "text": "Dropout"
+      },
+      {
+        "key": "D",
+        "text": "数据标准化"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "Xavier初始化根据网络的输入和输出节点数动态调整权重分布，确保训练初期梯度稳定。",
+    "category": "计算机视觉基础",
+    "difficulty": "普通",
+    "sourceRow": 100
+  },
+  {
+    "id": "单选题-101",
+    "type": "单选题",
+    "text": "以下哪种方法能够帮助改进语义分割的结果？",
+    "options": [
+      {
+        "key": "A",
+        "text": "使用更简单的模型架构"
+      },
+      {
+        "key": "B",
+        "text": "采用更高的学习率"
+      },
+      {
+        "key": "C",
+        "text": "使用自注意力机制"
+      },
+      {
+        "key": "D",
+        "text": "减少训练周期数"
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "explanation": "自注意力机制可以让模型集中于图像中的重要部分，从而改善分割结果，尤其是在处理复杂背景时。",
+    "category": "计算机视觉基础",
+    "difficulty": "简单",
+    "sourceRow": 101
+  },
+  {
+    "id": "单选题-102",
+    "type": "单选题",
+    "text": "语义分割与实例分割有何不同？",
+    "options": [
+      {
+        "key": "A",
+        "text": "语义分割区分不同类别的对象，而实例分割不区分"
+      },
+      {
+        "key": "B",
+        "text": "语义分割不区分同一类别的多个实例，而实例分割区分"
+      },
+      {
+        "key": "C",
+        "text": "语义分割只适用于静态图像，实例分割适用于视频"
+      },
+      {
+        "key": "D",
+        "text": "语义分割更关注于速度，实例分割更关注精度"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "语义分割只关心类别标签，而实例分割则进一步区分了同一类别下的不同个体。",
+    "category": "计算机视觉基础",
+    "difficulty": "简单",
+    "sourceRow": 102
+  },
+  {
+    "id": "单选题-103",
+    "type": "单选题",
+    "text": "以下哪种方法可以用来减少语义分割模型的计算成本？",
+    "options": [
+      {
+        "key": "A",
+        "text": "使用更深的网络架构"
+      },
+      {
+        "key": "B",
+        "text": "使用更复杂的损失函数"
+      },
+      {
+        "key": "C",
+        "text": "采用轻量化网络设计"
+      },
+      {
+        "key": "D",
+        "text": "增大输入图像尺寸"
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "explanation": "轻量化网络旨在减少计算成本，比如通过减少参数数量、优化操作等手段实现快速推理而不显著降低性能。",
+    "category": "计算机视觉基础",
+    "difficulty": "简单",
+    "sourceRow": 103
+  },
+  {
+    "id": "单选题-104",
+    "type": "单选题",
+    "text": "下列哪一项技术可以用于语义分割中的实时性能优化？",
+    "options": [
+      {
+        "key": "A",
+        "text": "使用更大尺寸的输入图像"
+      },
+      {
+        "key": "B",
+        "text": "减少模型的参数数量"
+      },
+      {
+        "key": "C",
+        "text": "增加网络的深度"
+      },
+      {
+        "key": "D",
+        "text": "增加训练迭代次数"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "轻量化设计旨在减少模型大小和计算需求，以便更快地执行推理，尤其适合移动设备或嵌入式系统。",
+    "category": "计算机视觉基础",
+    "difficulty": "简单",
+    "sourceRow": 104
+  },
+  {
+    "id": "单选题-105",
+    "type": "单选题",
+    "text": "在语义分割中，每个像素被分配给哪个类别？",
+    "options": [
+      {
+        "key": "A",
+        "text": "单个对象实例"
+      },
+      {
+        "key": "B",
+        "text": "多个可能的对象类"
+      },
+      {
+        "key": "C",
+        "text": "仅一个预定义的类别"
+      },
+      {
+        "key": "D",
+        "text": "随机类别"
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "explanation": "在语义分割中，每个像素被分配到一个特定的类别，即使同一类别的多个实例也无法区分。例如，所有属于“汽车”类别的像素都会被打上相同的标签，而不会单独标记每辆车。",
+    "category": "计算机视觉基础",
+    "difficulty": "简单",
+    "sourceRow": 105
+  },
+  {
+    "id": "单选题-106",
+    "type": "单选题",
+    "text": "语义分割任务通常使用哪种类型的神经网络？",
+    "options": [
+      {
+        "key": "A",
+        "text": "循环神经网络（RNN）"
+      },
+      {
+        "key": "B",
+        "text": "卷积神经网络（CNN）"
+      },
+      {
+        "key": "C",
+        "text": "自组织映射（SOM）"
+      },
+      {
+        "key": "D",
+        "text": "支持向量机（SVM）"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "CNNs 由于其局部连接性和权重共享特性，非常适合处理图像数据，并且能够自动学习特征表示，因此它们是语义分割任务中最常用的模型类型。",
+    "category": "计算机视觉基础",
+    "difficulty": "简单",
+    "sourceRow": 106
+  },
+  {
+    "id": "单选题-107",
+    "type": "单选题",
+    "text": "什么方法可以用来解决语义分割中的类别不平衡问题？",
+    "options": [
+      {
+        "key": "A",
+        "text": "使用加权交叉熵损失"
+      },
+      {
+        "key": "B",
+        "text": "减少训练数据量"
+      },
+      {
+        "key": "C",
+        "text": "增加网络深度"
+      },
+      {
+        "key": "D",
+        "text": "更改激活函数"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "为了应对类别不平衡问题，可以为不同的类别设置不同的权重，使得模型更加关注于少数类别的样本。",
+    "category": "计算机视觉基础",
+    "difficulty": "困难",
+    "sourceRow": 107
+  },
+  {
+    "id": "单选题-108",
+    "type": "单选题",
+    "text": "在语义分割中，为什么使用GPU而不是CPU进行训练更为有效？",
+    "options": [
+      {
+        "key": "A",
+        "text": "因为GPU有更高的时钟频率"
+      },
+      {
+        "key": "B",
+        "text": "因为GPU更适合并行计算"
+      },
+      {
+        "key": "C",
+        "text": "因为GPU具有更低的功耗"
+      },
+      {
+        "key": "D",
+        "text": "因为GPU提供更好的图形显示"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "GPU适合进行大规模的并行计算，能够加速深度学习模型的训练，特别是在处理大量数据时,因此相比 CPU 更高效。",
+    "category": "计算机视觉基础",
+    "difficulty": "普通",
+    "sourceRow": 108
+  },
+  {
+    "id": "单选题-109",
+    "type": "单选题",
+    "text": "为什么在语义分割中使用预训练模型作为初始化权重是有效的？",
+    "options": [
+      {
+        "key": "A",
+        "text": "因为它能直接提供准确的分割结果"
+      },
+      {
+        "key": "B",
+        "text": "因为它减少了对标注数据的需求"
+      },
+      {
+        "key": "C",
+        "text": "因为它能加速收敛并提高泛化能力"
+      },
+      {
+        "key": "D",
+        "text": "因为它降低了模型复杂度"
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "explanation": "预训练模型已经在大规模数据集上学习到了丰富的特征表示，这些特征可以作为初始化权重，使得新任务上的训练更快更稳定，并且能够更好地泛化到未见过的数据。",
+    "category": "计算机视觉基础",
+    "difficulty": "普通",
+    "sourceRow": 109
+  },
+  {
+    "id": "单选题-110",
+    "type": "单选题",
+    "text": "在语义分割任务中，什么是“多尺度融合”？",
+    "options": [
+      {
+        "key": "A",
+        "text": "合并不同分辨率的输入图像"
+      },
+      {
+        "key": "B",
+        "text": "结合来自不同层的特征图"
+      },
+      {
+        "key": "C",
+        "text": "将多个模型的结果进行平均"
+      },
+      {
+        "key": "D",
+        "text": "使用多种损失函数"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "多尺度融合指的是将网络不同层次提取到的不同分辨率特征图结合起来，这样可以同时利用低级细节特征和高级语义特征，有助于改善分割结果。",
+    "category": "计算机视觉基础",
+    "difficulty": "普通",
+    "sourceRow": 110
+  },
+  {
+    "id": "单选题-111",
+    "type": "单选题",
+    "text": "语义分割中的“热图”表示什么？",
+    "options": [
+      {
+        "key": "A",
+        "text": "输入图像的颜色分布"
+      },
+      {
+        "key": "B",
+        "text": "分类得分的概率分布"
+      },
+      {
+        "key": "C",
+        "text": "模型参数的更新频率"
+      },
+      {
+        "key": "D",
+        "text": "训练过程中的温度变化"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "热图通常用来可视化模型对不同类别的预测置信度，也就是每个像素属于某个特定类别的概率值。",
+    "category": "计算机视觉基础",
+    "difficulty": "普通",
+    "sourceRow": 111
+  },
+  {
+    "id": "单选题-112",
+    "type": "单选题",
+    "text": "大语言模型的训练过程中，什么是“模型压缩”（Model Compression）？",
+    "options": [
+      {
+        "key": "A",
+        "text": "增加模型的参数数量"
+      },
+      {
+        "key": "B",
+        "text": "减少模型的参数数量"
+      },
+      {
+        "key": "C",
+        "text": "增加模型的层数"
+      },
+      {
+        "key": "D",
+        "text": "减少模型的层数"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "模型压缩是指通过减少模型的参数数量来降低模型的存储和计算需求，同时尽量保持模型性能的一种优化技术。",
+    "category": "自然语言处理",
+    "difficulty": "简单",
+    "sourceRow": 112
+  },
+  {
+    "id": "单选题-113",
+    "type": "单选题",
+    "text": "在大语言模型中，什么是“参数共享”（Parameter Sharing）的主要优势？",
+    "options": [
+      {
+        "key": "A",
+        "text": "提高模型的生成能力"
+      },
+      {
+        "key": "B",
+        "text": "提高模型的训练效率"
+      },
+      {
+        "key": "C",
+        "text": "减少模型的参数数量，降低计算复杂度"
+      },
+      {
+        "key": "D",
+        "text": "增强模型的泛化能力"
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "explanation": "参数共享的主要优势是减少模型的参数数量，从而降低计算复杂度。通过在模型的不同部分共享参数，可以显著减少需要训练的参数量，进而降低存储需求和计算资源消耗，提高模型的训练和推理效率。",
+    "category": "自然语言处理",
+    "difficulty": "简单",
+    "sourceRow": 113
+  },
+  {
+    "id": "单选题-114",
+    "type": "单选题",
+    "text": "大语言模型的训练过程中，什么是“预训练”（Pre-training）？",
+    "options": [
+      {
+        "key": "A",
+        "text": "使用大量无标注数据进行初步训练"
+      },
+      {
+        "key": "B",
+        "text": "使用少量标注数据进行初步训练"
+      },
+      {
+        "key": "C",
+        "text": "使用特定任务数据进行训练"
+      },
+      {
+        "key": "D",
+        "text": "使用少量无标注数据进行训练"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "大语言模型的预训练（Pre-training）是指使用大量无标注数据进行初步训练，让模型学习语言的基本模式和结构，为后续的特定任务训练（微调）打下基础。",
+    "category": "自然语言处理",
+    "difficulty": "简单",
+    "sourceRow": 114
+  },
+  {
+    "id": "单选题-115",
+    "type": "单选题",
+    "text": "大语言模型的上下文窗口（Context Window）是指什么？",
+    "options": [
+      {
+        "key": "A",
+        "text": "模型单次处理的最大文本长度"
+      },
+      {
+        "key": "B",
+        "text": "模型的训练数据范围"
+      },
+      {
+        "key": "C",
+        "text": "模型的参数窗口"
+      },
+      {
+        "key": "D",
+        "text": "模型的输出范围"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "大语言模型的上下文窗口（Context Window）是指模型在生成或理解文本时能够处理的文本片段长度，通常以 token 数量为单位。它决定了模型在一次推理中可以考虑的最大输入和输出长度。",
+    "category": "自然语言处理",
+    "difficulty": "简单",
+    "sourceRow": 115
+  },
+  {
+    "id": "单选题-116",
+    "type": "单选题",
+    "text": "大语言模型的微调（Fine-tuning）通常用于什么目的？",
+    "options": [
+      {
+        "key": "A",
+        "text": "增加模型的参数数量"
+      },
+      {
+        "key": "B",
+        "text": "提高模型在特定任务上的性能"
+      },
+      {
+        "key": "C",
+        "text": "减少模型的计算复杂度"
+      },
+      {
+        "key": "D",
+        "text": "提高模型的上下文长度"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "大语言模型的微调（Fine-tuning）通常用于提高模型在特定任务上的性能，通过在特定领域的标注数据上进一步训练，使模型更好地适应特定任务的需求。",
+    "category": "自然语言处理",
+    "difficulty": "简单",
+    "sourceRow": 116
+  },
+  {
+    "id": "单选题-117",
+    "type": "单选题",
+    "text": "在大语言模型中，上下文长度（Context Length）指的是什么？",
+    "options": [
+      {
+        "key": "A",
+        "text": "模型可以处理的文本长度"
+      },
+      {
+        "key": "B",
+        "text": "模型的参数数量"
+      },
+      {
+        "key": "C",
+        "text": "模型的层数"
+      },
+      {
+        "key": "D",
+        "text": "模型的词汇量"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "上下文长度（Context Length）指的是模型可以处理的文本长度，即模型在一次前向传播中能够接收和处理的最大输入序列长度。",
+    "category": "自然语言处理",
+    "difficulty": "简单",
+    "sourceRow": 117
+  },
+  {
+    "id": "单选题-118",
+    "type": "单选题",
+    "text": "RoPE（旋转位置编码）是一种用于 Transformer 模型的位置编码方法，通过将位置信息以旋转矩阵的形式融入到查询（Query）和键（Key）向量中，从而实现对相对位置的编码。假设你正在设计一个处理长序列的模型，以下关于 RoPE 的描述中，哪一项是正确的？",
+    "options": [
+      {
+        "key": "A",
+        "text": "RoPE 通过将位置信息直接加到词嵌入（Word Embedding）层，从而实现对位置的编码。"
+      },
+      {
+        "key": "B",
+        "text": "RoPE 通过旋转矩阵将查询（Query）和键（Key）向量进行旋转，从而引入相对位置信息。"
+      },
+      {
+        "key": "C",
+        "text": "RoPE 的旋转矩阵是固定的，不依赖于序列的长度。"
+      },
+      {
+        "key": "D",
+        "text": "RoPE 在处理长序列时，由于其周期性特性，会导致位置信息的混淆"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "RoPE通过旋转矩阵将查询（Query）和键（Key）向量进行旋转，从而引入相对位置信息。这种方法使得模型能够捕捉到相对位置关系，而不需要增加额外的维度，适合处理长序列数据。",
+    "category": "自然语言处理",
+    "difficulty": "困难",
+    "sourceRow": 118
+  },
+  {
+    "id": "单选题-119",
+    "type": "单选题",
+    "text": "大语言模型中的“注意力可视化”（Attention Visualization）的主要作用是什么？",
+    "options": [
+      {
+        "key": "A",
+        "text": "提高模型的生成质量"
+      },
+      {
+        "key": "B",
+        "text": "提高模型的训练效率"
+      },
+      {
+        "key": "C",
+        "text": "提高模型的可解释性"
+      },
+      {
+        "key": "D",
+        "text": "提高模型的推理速度"
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "explanation": "注意力可视化（Attention Visualization）的主要作用是提高模型的可解释性。通过可视化注意力权重，研究人员可以观察模型在处理输入序列时对不同部分的关注程度，从而更好地理解模型的决策过程。",
+    "category": "自然语言处理",
+    "difficulty": "普通",
+    "sourceRow": 119
+  },
+  {
+    "id": "单选题-120",
+    "type": "单选题",
+    "text": "在大语言模型中，什么是“对比学习”（Contrastive Learning）的主要作用？",
+    "options": [
+      {
+        "key": "A",
+        "text": "提高模型的生成能力"
+      },
+      {
+        "key": "B",
+        "text": "提高模型的表示能力"
+      },
+      {
+        "key": "C",
+        "text": "提高模型的训练效率"
+      },
+      {
+        "key": "D",
+        "text": "提高模型的推理速度"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "对比学习（Contrastive Learning）的主要作用是提高模型的表示能力。通过拉近相似样本（正样本）之间的距离，推远不相似样本（负样本）之间的距离，对比学习能够使模型学习到更鲁棒、更具区分性的语义表示，从而提升模型在下游任务中的性能。",
+    "category": "自然语言处理",
+    "difficulty": "普通",
+    "sourceRow": 120
+  },
+  {
+    "id": "单选题-121",
+    "type": "单选题",
+    "text": "在大语言模型中，“对抗训练”（Adversarial Training）的主要作用是？",
+    "options": [
+      {
+        "key": "A",
+        "text": "提高模型的鲁棒性"
+      },
+      {
+        "key": "B",
+        "text": "提高模型的生成能力"
+      },
+      {
+        "key": "C",
+        "text": "提高模型的训练效率"
+      },
+      {
+        "key": "D",
+        "text": "提高模型的推理速度"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "对抗训练的主要作用是提高模型的鲁棒性，通过在训练过程中引入对抗性样本（即故意添加微小扰动的输入），模型能够学习到更鲁棒的特征表示，从而在面对对抗攻击时保持更稳定的性能。",
+    "category": "自然语言处理",
+    "difficulty": "普通",
+    "sourceRow": 121
+  },
+  {
+    "id": "单选题-122",
+    "type": "单选题",
+    "text": "在情感分析任务中，预处理步骤通常包括哪些内容？",
+    "options": [
+      {
+        "key": "A",
+        "text": "仅去除标点符号"
+      },
+      {
+        "key": "B",
+        "text": "仅进行词汇的标准化"
+      },
+      {
+        "key": "C",
+        "text": "去除停用词、标点符号以及低频词"
+      },
+      {
+        "key": "D",
+        "text": "仅进行拼写检查"
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "explanation": "预处理步骤通常包括去除停用词、标点符号及低频词等，目的是减少噪音。",
+    "category": "自然语言处理",
+    "difficulty": "简单",
+    "sourceRow": 122
+  },
+  {
+    "id": "单选题-123",
+    "type": "单选题",
+    "text": "在情感分析中，为什么卷积神经网络（CNN）能够有效捕捉情感特征？",
+    "options": [
+      {
+        "key": "A",
+        "text": "CNN能处理时序数据，适合文本"
+      },
+      {
+        "key": "B",
+        "text": "CNN通过词嵌入生成高维向量表示"
+      },
+      {
+        "key": "C",
+        "text": "CNN通过卷积层提取局部特征"
+      },
+      {
+        "key": "D",
+        "text": "CNN适合处理图像数据，不适用于文本"
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "explanation": "CNN能够通过卷积层提取局部特征，这对于捕捉文本中的局部情感信息非常有效。",
+    "category": "自然语言处理",
+    "difficulty": "简单",
+    "sourceRow": 123
+  },
+  {
+    "id": "单选题-124",
+    "type": "单选题",
+    "text": "在情感分析中，“情感极性”是指什么？",
+    "options": [
+      {
+        "key": "A",
+        "text": "文本中的情感强度"
+      },
+      {
+        "key": "B",
+        "text": "文本中情感的种类"
+      },
+      {
+        "key": "C",
+        "text": "文本情感的正负方向"
+      },
+      {
+        "key": "D",
+        "text": "文本中的情感词汇数量"
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "explanation": "情感极性指的是文本情感的正向或负向倾向，通常包括正面、负面和中性。",
+    "category": "自然语言处理",
+    "difficulty": "简单",
+    "sourceRow": 124
+  },
+  {
+    "id": "单选题-125",
+    "type": "单选题",
+    "text": "在情感分析中，使用词袋模型（Bag-of-Words）处理“这个产品既不便宜也不好用”，可能误判的原因是？",
+    "options": [
+      {
+        "key": "A",
+        "text": "无法捕捉否定结构（“不便宜”“不好用”）"
+      },
+      {
+        "key": "B",
+        "text": "忽略停用词（“这个”“也”）"
+      },
+      {
+        "key": "C",
+        "text": "未统计词频"
+      },
+      {
+        "key": "D",
+        "text": "未考虑词长信息"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "词袋模型忽略词序和否定组合，导致双重否定被误判为负面。",
+    "category": "自然语言处理",
+    "difficulty": "困难",
+    "sourceRow": 125
+  },
+  {
+    "id": "单选题-126",
+    "type": "单选题",
+    "text": "在社交媒体情感分析中，你发现模型对于讽刺和反讽的情感分类准确率较低。哪种方法可以帮助解决这个问题？",
+    "options": [
+      {
+        "key": "A",
+        "text": "增加训练数据中的讽刺和反讽样本"
+      },
+      {
+        "key": "B",
+        "text": "使用基于规则的讽刺检测模型"
+      },
+      {
+        "key": "C",
+        "text": "使用语境感知的深度学习模型"
+      },
+      {
+        "key": "D",
+        "text": "以上所有选项"
+      }
+    ],
+    "answer": [
+      "D"
+    ],
+    "explanation": "增加相关样本和使用更强大的语境感知模型可以提高模型对讽刺和反讽的理解。",
+    "category": "自然语言处理",
+    "difficulty": "困难",
+    "sourceRow": 126
+  },
+  {
+    "id": "单选题-127",
+    "type": "单选题",
+    "text": "在进行产品评论的情感分析时，你发现某些评论使用了混合情感（即同时包含正面和负面情感）。你会如何处理这些混合情感的评论？",
+    "options": [
+      {
+        "key": "A",
+        "text": "直接将其标记为中性"
+      },
+      {
+        "key": "B",
+        "text": "拆分评论并分别分析其正面和负面部分"
+      },
+      {
+        "key": "C",
+        "text": "使用多标签分类模型"
+      },
+      {
+        "key": "D",
+        "text": "忽略这些评论"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "拆分混合情感评论可以更细致地捕捉情感信息，从而提高分析的准确性。",
+    "category": "自然语言处理",
+    "difficulty": "困难",
+    "sourceRow": 127
+  },
+  {
+    "id": "单选题-128",
+    "type": "单选题",
+    "text": "在情感分析中，若文本包含大量的表情符号（如“😊”），常见的处理策略是？",
+    "options": [
+      {
+        "key": "A",
+        "text": "删除所有表情符号"
+      },
+      {
+        "key": "B",
+        "text": "将表情符号映射为相应的情感词汇"
+      },
+      {
+        "key": "C",
+        "text": "保留表情符号不做任何处理"
+      },
+      {
+        "key": "D",
+        "text": "将表情符号视为噪声数据"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "表情符号能够表达情感，可以映射为对应的情感词汇，从而辅助情感分析。",
+    "category": "自然语言处理",
+    "difficulty": "普通",
+    "sourceRow": 128
+  },
+  {
+    "id": "单选题-129",
+    "type": "单选题",
+    "text": "在情感分析任务中，如果你想要对文本进行情感强度的量化预测，应该使用什么类型的模型？",
+    "options": [
+      {
+        "key": "A",
+        "text": "分类模型"
+      },
+      {
+        "key": "B",
+        "text": "回归模型"
+      },
+      {
+        "key": "C",
+        "text": "聚类模型"
+      },
+      {
+        "key": "D",
+        "text": "强化学习模型"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "情感强度的量化通常是一个回归问题，输出一个连续值。",
+    "category": "自然语言处理",
+    "difficulty": "普通",
+    "sourceRow": 129
+  },
+  {
+    "id": "单选题-130",
+    "type": "单选题",
+    "text": "在情感分析中，如何处理文本中出现的“讽刺”或“反讽”情感表达？",
+    "options": [
+      {
+        "key": "A",
+        "text": "通过情感词典直接标注情感极性"
+      },
+      {
+        "key": "B",
+        "text": "采用上下文感知模型（如BERT）来捕捉情感变化的微妙差异"
+      },
+      {
+        "key": "C",
+        "text": "仅通过正面和负面标签对文本进行分类"
+      },
+      {
+        "key": "D",
+        "text": "将所有讽刺文本标记为“中性”"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "讽刺和反讽依赖于文本中的细微语境，BERT等上下文感知模型能够通过捕捉上下文中的深层次关系，帮助模型识别这种复杂情感。",
+    "category": "自然语言处理",
+    "difficulty": "普通",
+    "sourceRow": 130
+  },
+  {
+    "id": "单选题-131",
+    "type": "单选题",
+    "text": "在情感分析中，若某些情感标签（如“愤怒”）样本数量远少于其他标签，最有效的解决方案是？",
+    "options": [
+      {
+        "key": "A",
+        "text": "数据增强"
+      },
+      {
+        "key": "B",
+        "text": "增加训练数据量"
+      },
+      {
+        "key": "C",
+        "text": "简化标签集"
+      },
+      {
+        "key": "D",
+        "text": "调整模型结构"
+      }
+    ],
+    "answer": [
+      "A"
+    ],
+    "explanation": "数据增强能增加少数类别的样本数量，缓解类别不平衡问题。",
+    "category": "自然语言处理",
+    "difficulty": "普通",
+    "sourceRow": 131
+  },
+  {
+    "id": "单选题-132",
+    "type": "单选题",
+    "text": "对于“多轮对话情感分析”任务，以下哪种方法能最有效地保持上下文信息，从而提高情感分类的准确性？",
+    "options": [
+      {
+        "key": "A",
+        "text": "使用单轮情感分析模型逐轮处理对话"
+      },
+      {
+        "key": "B",
+        "text": "使用Transformer模型及其自注意力机制捕捉对话中的长期上下文依赖"
+      },
+      {
+        "key": "C",
+        "text": "仅依赖上一轮对话的情感标签进行分类"
+      },
+      {
+        "key": "D",
+        "text": "通过分析每轮对话中的情感词来分类"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "Transformer模型的自注意力机制能够处理对话中的全局上下文，捕捉长时间跨度内的情感变化，从而提高多轮对话的情感识别能力。",
+    "category": "自然语言处理",
+    "difficulty": "普通",
+    "sourceRow": 132
+  },
+  {
+    "id": "单选题-133",
+    "type": "单选题",
+    "text": "2016年，哪项人工智能成果被广泛认为是深度学习在复杂博弈问题上取得的重要突破？",
+    "options": [
+      {
+        "key": "A",
+        "text": "神经风格迁移的首次应用"
+      },
+      {
+        "key": "B",
+        "text": "AlphaGo 击败职业围棋选手"
+      },
+      {
+        "key": "C",
+        "text": "卷积神经网络首次在ImageNet夺冠"
+      },
+      {
+        "key": "D",
+        "text": "强化学习首次实现 Atari 游戏通关"
+      }
+    ],
+    "answer": [
+      "B"
+    ],
+    "explanation": "",
+    "category": "未分类",
+    "difficulty": "未标注",
+    "sourceRow": 133
+  },
+  {
+    "id": "单选题-134",
+    "type": "单选题",
+    "text": "2022年前后，多模态模型的兴起促进了哪项任务的发展？",
+    "options": [
+      {
+        "key": "A",
+        "text": "图像增强"
+      },
+      {
+        "key": "B",
+        "text": "文本情感分析"
+      },
+      {
+        "key": "C",
+        "text": "文图对齐与跨模态生成"
+      },
+      {
+        "key": "D",
+        "text": "强化学习策略优化"
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "explanation": "",
+    "category": "未分类",
+    "difficulty": "未标注",
+    "sourceRow": 134
+  },
+  {
+    "id": "单选题-135",
+    "type": "单选题",
+    "text": "2023年前后被广泛应用于聊天机器人、问答系统的模型类型是？",
+    "options": [
+      {
+        "key": "A",
+        "text": "卷积神经网络"
+      },
+      {
+        "key": "B",
+        "text": "图神经网络"
+      },
+      {
+        "key": "C",
+        "text": "生成式大语言模型"
+      },
+      {
+        "key": "D",
+        "text": "自动编码器"
+      }
+    ],
+    "answer": [
+      "C"
+    ],
+    "explanation": "",
+    "category": "未分类",
+    "difficulty": "未标注",
+    "sourceRow": 135
+  },
+  {
+    "id": "多选题-2",
+    "type": "多选题",
+    "text": "反向传播算法的计算流程包括哪些步骤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "前向传播计算预测值"
+      },
+      {
+        "key": "B",
+        "text": "计算每一层的误差"
+      },
+      {
+        "key": "C",
+        "text": "计算每层的梯度"
+      },
+      {
+        "key": "D",
+        "text": "进行参数更新"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "explanation": "反向传播的流程包括前向传播、计算误差、反向计算梯度以及更新网络参数。",
+    "category": "人工智能理论基础",
+    "difficulty": "简单",
+    "sourceRow": 2
+  },
+  {
+    "id": "多选题-3",
+    "type": "多选题",
+    "text": "在监督学习中，以下哪些方式可以用于评估模型的泛化能力？",
+    "options": [
+      {
+        "key": "A",
+        "text": "使用交叉验证"
+      },
+      {
+        "key": "B",
+        "text": "使用训练集"
+      },
+      {
+        "key": "C",
+        "text": "使用验证集"
+      },
+      {
+        "key": "D",
+        "text": "使用测试集"
+      }
+    ],
+    "answer": [
+      "A",
+      "C",
+      "D"
+    ],
+    "explanation": "交叉验证、验证集和测试集都用于评估模型的泛化能力。而训练集主要用于训练模型，不用于评估泛化能力。",
+    "category": "人工智能理论基础",
+    "difficulty": "简单",
+    "sourceRow": 3
+  },
+  {
+    "id": "多选题-4",
+    "type": "多选题",
+    "text": "哪些领域的应用已经受益于强化学习技术？",
+    "options": [
+      {
+        "key": "A",
+        "text": "游戏（如AlphaGo）"
+      },
+      {
+        "key": "B",
+        "text": "自动驾驶"
+      },
+      {
+        "key": "C",
+        "text": "机器人控制"
+      },
+      {
+        "key": "D",
+        "text": "医疗影像处理"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "强化学习广泛应用于游戏（如AlphaGo）、自动驾驶、机器人控制等领域。虽然强化学习在医疗影像处理领域的应用正在探索中，但不是其主要应用领域。",
+    "category": "人工智能理论基础",
+    "difficulty": "普通",
+    "sourceRow": 4
+  },
+  {
+    "id": "多选题-5",
+    "type": "多选题",
+    "text": "以下哪些是大规模预训练语言模型（如GPT-3、BERT）的常见应用？",
+    "options": [
+      {
+        "key": "A",
+        "text": "语音识别"
+      },
+      {
+        "key": "B",
+        "text": "文本生成"
+      },
+      {
+        "key": "C",
+        "text": "问答系统"
+      },
+      {
+        "key": "D",
+        "text": "图像分类"
+      }
+    ],
+    "answer": [
+      "B",
+      "C"
+    ],
+    "explanation": "大规模预训练语言模型广泛应用于文本生成和问答系统，而语音识别和计算机视觉主要依赖其他专门的模型，如卷积神经网络（CNN）。",
+    "category": "人工智能理论基础",
+    "difficulty": "普通",
+    "sourceRow": 5
+  },
+  {
+    "id": "多选题-6",
+    "type": "多选题",
+    "text": "卷积神经网络（CNN）中，池化层的作用包括什么？",
+    "options": [
+      {
+        "key": "A",
+        "text": "减少特征图的空间尺寸"
+      },
+      {
+        "key": "B",
+        "text": "增强特征的表达能力"
+      },
+      {
+        "key": "C",
+        "text": "防止过拟合"
+      },
+      {
+        "key": "D",
+        "text": "提高计算效率"
+      }
+    ],
+    "answer": [
+      "A",
+      "C",
+      "D"
+    ],
+    "explanation": "池化层通过降低特征图的空间分辨率来减少计算量，防止过拟合，并提高计算效率。",
+    "category": "人工智能理论基础",
+    "difficulty": "简单",
+    "sourceRow": 6
+  },
+  {
+    "id": "多选题-7",
+    "type": "多选题",
+    "text": "在Transformer模型中，以下哪些部分用于学习序列中元素之间的依赖关系？",
+    "options": [
+      {
+        "key": "A",
+        "text": "自注意力机制（Self-Attention）"
+      },
+      {
+        "key": "B",
+        "text": "前馈网络（Feed-Forward Network）"
+      },
+      {
+        "key": "C",
+        "text": "多头注意力（Multi-Head Attention）"
+      },
+      {
+        "key": "D",
+        "text": "卷积层（Convolutional Layer）"
+      }
+    ],
+    "answer": [
+      "A",
+      "C"
+    ],
+    "explanation": "Transformer模型通过自注意力机制和多头注意力来捕捉序列元素之间的依赖关系，卷积层不在该模型中使用。",
+    "category": "人工智能理论基础",
+    "difficulty": "简单",
+    "sourceRow": 7
+  },
+  {
+    "id": "多选题-8",
+    "type": "多选题",
+    "text": "以下哪些激活函数常用于神经网络中？",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sigmoid"
+      },
+      {
+        "key": "B",
+        "text": "Tanh"
+      },
+      {
+        "key": "C",
+        "text": "ReLU"
+      },
+      {
+        "key": "D",
+        "text": "Softmax"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "explanation": "Sigmoid、Tanh、ReLU和Softmax都是常用的激活函数，分别用于不同的任务和网络层。",
+    "category": "人工智能理论基础",
+    "difficulty": "简单",
+    "sourceRow": 8
+  },
+  {
+    "id": "多选题-9",
+    "type": "多选题",
+    "text": "对于循环神经网络（RNN），以下哪些是常见的问题？",
+    "options": [
+      {
+        "key": "A",
+        "text": "梯度消失"
+      },
+      {
+        "key": "B",
+        "text": "梯度爆炸"
+      },
+      {
+        "key": "C",
+        "text": "长期依赖问题"
+      },
+      {
+        "key": "D",
+        "text": "数据不平衡问题"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "RNN的梯度消失、梯度爆炸和长期依赖问题是该网络架构的主要挑战，数据不平衡问题与RNN模型的结构无关。",
+    "category": "人工智能理论基础",
+    "difficulty": "简单",
+    "sourceRow": 9
+  },
+  {
+    "id": "多选题-10",
+    "type": "多选题",
+    "text": "以下哪些是常见的优化算法？",
+    "options": [
+      {
+        "key": "A",
+        "text": "随机梯度下降（SGD）"
+      },
+      {
+        "key": "B",
+        "text": "Adam"
+      },
+      {
+        "key": "C",
+        "text": "RMSprop"
+      },
+      {
+        "key": "D",
+        "text": "K-means"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "SGD、Adam和RMSprop都是常见的深度学习优化算法，而K-means是一种聚类算法。",
+    "category": "人工智能理论基础",
+    "difficulty": "简单",
+    "sourceRow": 10
+  },
+  {
+    "id": "多选题-11",
+    "type": "多选题",
+    "text": "在RNN中，使用长时间序列时，以下哪些方法能够帮助缓解梯度消失问题？",
+    "options": [
+      {
+        "key": "A",
+        "text": "使用LSTM"
+      },
+      {
+        "key": "B",
+        "text": "使用GRU"
+      },
+      {
+        "key": "C",
+        "text": "增加RNN的层数"
+      },
+      {
+        "key": "D",
+        "text": "使用池化操作"
+      }
+    ],
+    "answer": [
+      "A",
+      "B"
+    ],
+    "explanation": "LSTM和GRU都设计了门控机制来帮助缓解RNN中的梯度消失问题。增加RNN层数和使用池化操作并不直接解决该问题。",
+    "category": "人工智能理论基础",
+    "difficulty": "简单",
+    "sourceRow": 11
+  },
+  {
+    "id": "多选题-12",
+    "type": "多选题",
+    "text": "影响数据集质量的因素有哪些？",
+    "options": [
+      {
+        "key": "A",
+        "text": "标注质量"
+      },
+      {
+        "key": "B",
+        "text": "数据多样性"
+      },
+      {
+        "key": "C",
+        "text": "数据采集方式"
+      },
+      {
+        "key": "D",
+        "text": "模型的训练参数"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "数据质量受标注、采集方式和数据多样性影响，而训练参数影响模型训练。",
+    "category": "数据采集与标注",
+    "difficulty": "简单",
+    "sourceRow": 12
+  },
+  {
+    "id": "多选题-13",
+    "type": "多选题",
+    "text": "在数据采集过程中，如何提高数据的泛化能力？",
+    "options": [
+      {
+        "key": "A",
+        "text": "采集多样化数据"
+      },
+      {
+        "key": "B",
+        "text": "只采集高质量数据"
+      },
+      {
+        "key": "C",
+        "text": "平衡各类样本数量"
+      },
+      {
+        "key": "D",
+        "text": "过滤掉所有异常数据"
+      }
+    ],
+    "answer": [
+      "A",
+      "C"
+    ],
+    "explanation": "多样化数据和平衡样本有助于模型泛化，过度过滤可能影响数据分布。",
+    "category": "数据采集与标注",
+    "difficulty": "普通",
+    "sourceRow": 13
+  },
+  {
+    "id": "多选题-14",
+    "type": "多选题",
+    "text": "目标检测数据集的标注格式可能包括哪些内容？",
+    "options": [
+      {
+        "key": "A",
+        "text": "目标类别"
+      },
+      {
+        "key": "B",
+        "text": "目标位置（Bounding Box）"
+      },
+      {
+        "key": "C",
+        "text": "像素级掩码"
+      },
+      {
+        "key": "D",
+        "text": "目标的深度信息"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "目标检测数据通常包含类别、位置，有时也有掩码信息。",
+    "category": "数据采集与标注",
+    "difficulty": "普通",
+    "sourceRow": 14
+  },
+  {
+    "id": "多选题-15",
+    "type": "多选题",
+    "text": "以下哪些是数据标注的常见方法？",
+    "options": [
+      {
+        "key": "A",
+        "text": "人工标注"
+      },
+      {
+        "key": "B",
+        "text": "自动标注"
+      },
+      {
+        "key": "C",
+        "text": "半监督标注"
+      },
+      {
+        "key": "D",
+        "text": "无监督标注"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "数据标注的方法包括人工标注、自动标注和半监督标注（即人工和自动结合的方式）。无监督标注通常不适用于有标签数据的任务。",
+    "category": "数据采集与标注",
+    "difficulty": "简单",
+    "sourceRow": 15
+  },
+  {
+    "id": "多选题-16",
+    "type": "多选题",
+    "text": "哪些是常见的图像数据标注方法？",
+    "options": [
+      {
+        "key": "A",
+        "text": "边界框标注"
+      },
+      {
+        "key": "B",
+        "text": "关键点标注"
+      },
+      {
+        "key": "C",
+        "text": "像素级标注"
+      },
+      {
+        "key": "D",
+        "text": "文本标注"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "目标检测、姿态估计和语义分割等任务各有不同的标注方式。",
+    "category": "数据采集与标注",
+    "difficulty": "简单",
+    "sourceRow": 16
+  },
+  {
+    "id": "多选题-17",
+    "type": "多选题",
+    "text": "数据标注的自动化方法包括哪些？",
+    "options": [
+      {
+        "key": "A",
+        "text": "预训练模型辅助标注"
+      },
+      {
+        "key": "B",
+        "text": "规则匹配"
+      },
+      {
+        "key": "C",
+        "text": "人工逐帧标注"
+      },
+      {
+        "key": "D",
+        "text": "生成式模型标注"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "explanation": "预训练模型、规则匹配和生成式方法可减少人工标注的工作量。",
+    "category": "数据采集与标注",
+    "difficulty": "普通",
+    "sourceRow": 17
+  },
+  {
+    "id": "多选题-18",
+    "type": "多选题",
+    "text": "在医学影像分析中，数据标注的难点包括哪些？",
+    "options": [
+      {
+        "key": "A",
+        "text": "需要专业知识"
+      },
+      {
+        "key": "B",
+        "text": "标注数据量大"
+      },
+      {
+        "key": "C",
+        "text": "隐私和数据安全问题"
+      },
+      {
+        "key": "D",
+        "text": "标注任务简单易做"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "医学影像的标注需要专家指导，并涉及数据安全问题。",
+    "category": "数据采集与标注",
+    "difficulty": "普通",
+    "sourceRow": 18
+  },
+  {
+    "id": "多选题-19",
+    "type": "多选题",
+    "text": "在图像数据标注的质量控制中，常见的方法有哪些？",
+    "options": [
+      {
+        "key": "A",
+        "text": "交叉验证标注"
+      },
+      {
+        "key": "B",
+        "text": "机器辅助审核"
+      },
+      {
+        "key": "C",
+        "text": "随机抽样检查"
+      },
+      {
+        "key": "D",
+        "text": "忽略低质量数据"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "通过交叉验证、机器辅助和抽样检查可以提高标注质量。",
+    "category": "数据采集与标注",
+    "difficulty": "普通",
+    "sourceRow": 19
+  },
+  {
+    "id": "多选题-20",
+    "type": "多选题",
+    "text": "在数据增强过程中，哪些方法有助于提升模型的泛化能力？",
+    "options": [
+      {
+        "key": "A",
+        "text": "亮度调整"
+      },
+      {
+        "key": "B",
+        "text": "旋转"
+      },
+      {
+        "key": "C",
+        "text": "翻转"
+      },
+      {
+        "key": "D",
+        "text": "平滑滤波"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "亮度调整、旋转和翻转可以有效增加数据多样性。",
+    "category": "数据采集与标注",
+    "difficulty": "普通",
+    "sourceRow": 20
+  },
+  {
+    "id": "多选题-21",
+    "type": "多选题",
+    "text": "在医学影像的预处理过程中，常见的步骤有哪些？",
+    "options": [
+      {
+        "key": "A",
+        "text": "归一化"
+      },
+      {
+        "key": "B",
+        "text": "噪声去除"
+      },
+      {
+        "key": "C",
+        "text": "随机颜色变换"
+      },
+      {
+        "key": "D",
+        "text": "图像配准"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "explanation": "归一化、去噪和配准常用于医学影像预处理，而随机颜色变换不常使用。",
+    "category": "数据采集与标注",
+    "difficulty": "困难",
+    "sourceRow": 21
+  },
+  {
+    "id": "多选题-22",
+    "type": "多选题",
+    "text": "典型的深度学习特征提取器有哪些？",
+    "options": [
+      {
+        "key": "A",
+        "text": "ResNet"
+      },
+      {
+        "key": "B",
+        "text": "VGG"
+      },
+      {
+        "key": "C",
+        "text": "AlexNet"
+      },
+      {
+        "key": "D",
+        "text": "SIFT"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "SIFT 是传统方法，而 ResNet、VGG 和 AlexNet 属于深度学习特征提取器。",
+    "category": "模型搭建与开发",
+    "difficulty": "简单",
+    "sourceRow": 22
+  },
+  {
+    "id": "多选题-23",
+    "type": "多选题",
+    "text": "影响特征提取器性能的因素有哪些？",
+    "options": [
+      {
+        "key": "A",
+        "text": "计算复杂度"
+      },
+      {
+        "key": "B",
+        "text": "特征层深度"
+      },
+      {
+        "key": "C",
+        "text": "激活函数"
+      },
+      {
+        "key": "D",
+        "text": "颜色空间"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "计算复杂度、网络深度和激活函数都会影响特征提取效果。",
+    "category": "模型搭建与开发",
+    "difficulty": "普通",
+    "sourceRow": 23
+  },
+  {
+    "id": "多选题-24",
+    "type": "多选题",
+    "text": "目标检测算法 Faster R-CNN 相比 SSD 和 YOLO 主要的特点有哪些？",
+    "options": [
+      {
+        "key": "A",
+        "text": "检测精度较高"
+      },
+      {
+        "key": "B",
+        "text": "速度最快"
+      },
+      {
+        "key": "C",
+        "text": "采用两阶段检测"
+      },
+      {
+        "key": "D",
+        "text": "使用区域提议网络（RPN）"
+      }
+    ],
+    "answer": [
+      "A",
+      "C",
+      "D"
+    ],
+    "explanation": "Faster R-CNN 是两阶段检测算法，检测精度高，但速度比 YOLO 慢。",
+    "category": "模型搭建与开发",
+    "difficulty": "困难",
+    "sourceRow": 24
+  },
+  {
+    "id": "多选题-25",
+    "type": "多选题",
+    "text": "Self-Attention 计算过程中涉及哪些关键步骤？",
+    "options": [
+      {
+        "key": "A",
+        "text": "计算查询（Query）、键（Key）、值（Value）"
+      },
+      {
+        "key": "B",
+        "text": "计算注意力分数"
+      },
+      {
+        "key": "C",
+        "text": "归一化注意力权重"
+      },
+      {
+        "key": "D",
+        "text": "进行池化操作"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "Self-Attention 计算 QKV，然后归一化注意力权重，以获取重要特征。",
+    "category": "模型搭建与开发",
+    "difficulty": "普通",
+    "sourceRow": 25
+  },
+  {
+    "id": "多选题-26",
+    "type": "多选题",
+    "text": "Swin Transformer 相比 ViT 具有哪些优势？",
+    "options": [
+      {
+        "key": "A",
+        "text": "计算复杂度更低"
+      },
+      {
+        "key": "B",
+        "text": "采用滑动窗口注意力"
+      },
+      {
+        "key": "C",
+        "text": "适用于高分辨率图像"
+      },
+      {
+        "key": "D",
+        "text": "仅适用于小型数据集"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "Swin Transformer 减少计算量，并适用于高分辨率图像任务。",
+    "category": "模型搭建与开发",
+    "difficulty": "普通",
+    "sourceRow": 26
+  },
+  {
+    "id": "多选题-27",
+    "type": "多选题",
+    "text": "影响注意力机制计算效率的因素有哪些？",
+    "options": [
+      {
+        "key": "A",
+        "text": "输入数据维度"
+      },
+      {
+        "key": "B",
+        "text": "计算的时间复杂度"
+      },
+      {
+        "key": "C",
+        "text": "是否使用局部注意力"
+      },
+      {
+        "key": "D",
+        "text": "是否采用 3x3 卷积核"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "计算量受 数据维度、计算复杂度和局部注意力机制 影响。",
+    "category": "模型搭建与开发",
+    "difficulty": "普通",
+    "sourceRow": 27
+  },
+  {
+    "id": "多选题-28",
+    "type": "多选题",
+    "text": "影响深度学习模型训练效果的超参数包括哪些？",
+    "options": [
+      {
+        "key": "A",
+        "text": "学习率"
+      },
+      {
+        "key": "B",
+        "text": "批次大小"
+      },
+      {
+        "key": "C",
+        "text": "权重初始化"
+      },
+      {
+        "key": "D",
+        "text": "计算设备"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "计算设备是硬件资源，而 学习率、批次大小和权重初始化 直接影响训练效果。",
+    "category": "模型训练与测试",
+    "difficulty": "简单",
+    "sourceRow": 28
+  },
+  {
+    "id": "多选题-29",
+    "type": "多选题",
+    "text": "在神经网络训练过程中，使用较小的 batch size 可能会导致？",
+    "options": [
+      {
+        "key": "A",
+        "text": "训练时间更短"
+      },
+      {
+        "key": "B",
+        "text": "模型收敛不稳定"
+      },
+      {
+        "key": "C",
+        "text": "需要更多的参数调优"
+      },
+      {
+        "key": "D",
+        "text": "训练时梯度更新更加随机"
+      }
+    ],
+    "answer": [
+      "B",
+      "C",
+      "D"
+    ],
+    "explanation": "过小的 batch size 可能会 导致梯度噪声增大，影响稳定性和超参数调优需求。",
+    "category": "模型训练与测试",
+    "difficulty": "普通",
+    "sourceRow": 29
+  },
+  {
+    "id": "多选题-30",
+    "type": "多选题",
+    "text": "影响深度学习模型泛化能力的超参数有哪些？",
+    "options": [
+      {
+        "key": "A",
+        "text": "学习率"
+      },
+      {
+        "key": "B",
+        "text": "正则化参数"
+      },
+      {
+        "key": "C",
+        "text": "批次大小"
+      },
+      {
+        "key": "D",
+        "text": "激活函数类型"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "学习率、正则化参数和 batch size 影响泛化能力，而激活函数是网络结构的一部分。",
+    "category": "模型训练与测试",
+    "difficulty": "困难",
+    "sourceRow": 30
+  },
+  {
+    "id": "多选题-31",
+    "type": "多选题",
+    "text": "哪些方法可以用于防止机器学习模型的过拟合？",
+    "options": [
+      {
+        "key": "A",
+        "text": "增加训练数据量"
+      },
+      {
+        "key": "B",
+        "text": "使用正则化技术"
+      },
+      {
+        "key": "C",
+        "text": "提高模型复杂度"
+      },
+      {
+        "key": "D",
+        "text": "使用交叉验证"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "explanation": "增加训练数据量、使用正则化技术和交叉验证都是防止过拟合的有效方法。提高模型复杂度通常会增加过拟合的风险。",
+    "category": "模型训练与测试",
+    "difficulty": "简单",
+    "sourceRow": 31
+  },
+  {
+    "id": "多选题-32",
+    "type": "多选题",
+    "text": "哪些操作可以有效减小过拟合的风险？",
+    "options": [
+      {
+        "key": "A",
+        "text": "数据增强"
+      },
+      {
+        "key": "B",
+        "text": "使用正则化技术"
+      },
+      {
+        "key": "C",
+        "text": "增加训练数据的量"
+      },
+      {
+        "key": "D",
+        "text": "增加模型的复杂度"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "数据增强、正则化和增加训练数据的量都能有效减少过拟合。而增加模型复杂度通常会增加过拟合的风险。",
+    "category": "模型训练与测试",
+    "difficulty": "普通",
+    "sourceRow": 32
+  },
+  {
+    "id": "多选题-33",
+    "type": "多选题",
+    "text": "目标检测中的常见评价指标包括以下哪些？",
+    "options": [
+      {
+        "key": "A",
+        "text": "精度（Precision）"
+      },
+      {
+        "key": "B",
+        "text": "召回率（Recall）"
+      },
+      {
+        "key": "C",
+        "text": "mAP（Mean Average Precision）"
+      },
+      {
+        "key": "D",
+        "text": "成功率(Success Rate)"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "精度、召回率、mAP是常见的目标检测评价指标。",
+    "category": "模型训练与测试",
+    "difficulty": "简单",
+    "sourceRow": 33
+  },
+  {
+    "id": "多选题-34",
+    "type": "多选题",
+    "text": "在语义分割中，常用的评价指标有哪些？",
+    "options": [
+      {
+        "key": "A",
+        "text": "交并比（IoU）"
+      },
+      {
+        "key": "B",
+        "text": "精度（Accuracy）"
+      },
+      {
+        "key": "C",
+        "text": "平均精度均值（mAP）"
+      },
+      {
+        "key": "D",
+        "text": "召回率（Recall）"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "explanation": "IoU用于评估分割结果与真实标签之间的重叠程度。精度衡量所有预测中正确预测的比例。召回率衡量所有真实目标中被正确预测的比例。mAP主要用于目标检测，不是语义分割的评价指标。",
+    "category": "模型训练与测试",
+    "difficulty": "简单",
+    "sourceRow": 34
+  },
+  {
+    "id": "多选题-35",
+    "type": "多选题",
+    "text": "以下哪些选项属于情感分析任务常用的深度学习模型？",
+    "options": [
+      {
+        "key": "A",
+        "text": "LSTM"
+      },
+      {
+        "key": "B",
+        "text": "Transformer"
+      },
+      {
+        "key": "C",
+        "text": "K-Means"
+      },
+      {
+        "key": "D",
+        "text": "BERT"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "explanation": "K-Means 是聚类算法，而不是深度学习模型。",
+    "category": "模型训练与测试",
+    "difficulty": "普通",
+    "sourceRow": 35
+  },
+  {
+    "id": "多选题-36",
+    "type": "多选题",
+    "text": "在语义分割任务中，类别不平衡问题通常可以通过以下哪些方法解决？",
+    "options": [
+      {
+        "key": "A",
+        "text": "使用加权损失函数"
+      },
+      {
+        "key": "B",
+        "text": "过采样少数类"
+      },
+      {
+        "key": "C",
+        "text": "数据增强"
+      },
+      {
+        "key": "D",
+        "text": "使用更深的网络"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "加权损失函数可以对少数类样本给予更高的权重，平衡模型的学习。过采样少数类可以通过生成更多的少数类样本来缓解类别不平衡问题。数据增强通过增强少数类样本来提升模型对少数类的学习能力。使用更深的网络通常不会直接解决类别不平衡问题，更多是增加模型的容量来提升性能。",
+    "category": "模型训练与测试",
+    "difficulty": "普通",
+    "sourceRow": 36
+  },
+  {
+    "id": "多选题-37",
+    "type": "多选题",
+    "text": "关于目标检测算法，哪些说法是正确的？",
+    "options": [
+      {
+        "key": "A",
+        "text": "Faster R-CNN 是一种基于区域提议网络（RPN）的目标检测算法，其通过生成候选区域来提高检测精度，但速度较慢"
+      },
+      {
+        "key": "B",
+        "text": "RetinaNet 引入了焦点损失（Focal Loss）来解决类别不平衡问题，特别在小物体检测上表现突出"
+      },
+      {
+        "key": "C",
+        "text": "DETR（Detection Transformer）是首个完全基于Transformer的目标检测算法，利用自注意力机制来实现端到端的目标检测"
+      },
+      {
+        "key": "D",
+        "text": "EfficientDet 采用了一种复合缩放方法（Compound Scaling），同时调整网络的宽度、深度和分辨率，无需进行耗时的手动设计或调优"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "explanation": "许多目标检测算法（如Faster R-CNN、RetinaNet、DETR和EfficientDet）在检测精度、速度、算法架构等方面提出了不同的创新。",
+    "category": "计算机视觉基础",
+    "difficulty": "困难",
+    "sourceRow": 37
+  },
+  {
+    "id": "多选题-38",
+    "type": "多选题",
+    "text": "在MobileNet系列中，以下哪些方法有助于提高模型的计算效率？",
+    "options": [
+      {
+        "key": "A",
+        "text": "使用深度可分离卷积"
+      },
+      {
+        "key": "B",
+        "text": "引入神经架构搜索（NAS）"
+      },
+      {
+        "key": "C",
+        "text": "使用较小的卷积核"
+      },
+      {
+        "key": "D",
+        "text": "减少卷积层的深度"
+      }
+    ],
+    "answer": [
+      "A",
+      "C",
+      "D"
+    ],
+    "explanation": "MobileNet通过使用深度可分离卷积、较小的卷积核和较浅的网络层数来减少计算复杂度。",
+    "category": "计算机视觉基础",
+    "difficulty": "普通",
+    "sourceRow": 38
+  },
+  {
+    "id": "多选题-39",
+    "type": "多选题",
+    "text": "下列哪些是常见的图像分类算法？",
+    "options": [
+      {
+        "key": "A",
+        "text": "卷积神经网络 (CNN)"
+      },
+      {
+        "key": "B",
+        "text": "线性回归"
+      },
+      {
+        "key": "C",
+        "text": "支持向量机 (SVM)"
+      },
+      {
+        "key": "D",
+        "text": "K-最近邻 (KNN)"
+      }
+    ],
+    "answer": [
+      "A",
+      "C",
+      "D"
+    ],
+    "explanation": "卷积神经网络、支持向量机和K-最近邻都可用于图像分类，线性回归一般用于回归任务，不适合用于图像分类。",
+    "category": "计算机视觉基础",
+    "difficulty": "简单",
+    "sourceRow": 39
+  },
+  {
+    "id": "多选题-40",
+    "type": "多选题",
+    "text": "在图像分类中，以下哪些方法可用于提高模型的泛化能力？",
+    "options": [
+      {
+        "key": "A",
+        "text": "早停（Early Stopping）"
+      },
+      {
+        "key": "B",
+        "text": "激活函数选择"
+      },
+      {
+        "key": "C",
+        "text": "正则化（如L2正则化）"
+      },
+      {
+        "key": "D",
+        "text": "使用小批量数据训练"
+      }
+    ],
+    "answer": [
+      "A",
+      "C",
+      "D"
+    ],
+    "explanation": "早停、正则化以及小批量数据训练都有助于提高模型的泛化能力。激活函数的选择主要影响模型的非线性表示能力。",
+    "category": "计算机视觉基础",
+    "difficulty": "简单",
+    "sourceRow": 40
+  },
+  {
+    "id": "多选题-41",
+    "type": "多选题",
+    "text": "图像分类中，以下哪些是常见的激活函数？",
+    "options": [
+      {
+        "key": "A",
+        "text": "ReLU"
+      },
+      {
+        "key": "B",
+        "text": "Sigmoid"
+      },
+      {
+        "key": "C",
+        "text": "Tanh"
+      },
+      {
+        "key": "D",
+        "text": "Softmax"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "explanation": "ReLU、Sigmoid、Tanh和Softmax都是常见的激活函数，分别用于不同的层和任务。",
+    "category": "计算机视觉基础",
+    "difficulty": "简单",
+    "sourceRow": 41
+  },
+  {
+    "id": "多选题-42",
+    "type": "多选题",
+    "text": "下列哪些方法是卷积神经网络 (CNN) 用于学习图像特征的关键？",
+    "options": [
+      {
+        "key": "A",
+        "text": "深度学习"
+      },
+      {
+        "key": "B",
+        "text": "池化"
+      },
+      {
+        "key": "C",
+        "text": "数据标准化"
+      },
+      {
+        "key": "D",
+        "text": "梯度反向传播"
+      }
+    ],
+    "answer": [
+      "B",
+      "D"
+    ],
+    "explanation": "卷积神经网络通过池化层对图像进行降维，并通过梯度反向传播算法学习特征。",
+    "category": "计算机视觉基础",
+    "difficulty": "简单",
+    "sourceRow": 42
+  },
+  {
+    "id": "多选题-43",
+    "type": "多选题",
+    "text": "在卷积神经网络（CNN）中，卷积操作的作用是什么？",
+    "options": [
+      {
+        "key": "A",
+        "text": "提取图像的局部特征"
+      },
+      {
+        "key": "B",
+        "text": "对图像进行降维处理"
+      },
+      {
+        "key": "C",
+        "text": "强化图像的全局信息"
+      },
+      {
+        "key": "D",
+        "text": "增加网络的计算复杂度"
+      }
+    ],
+    "answer": [
+      "A",
+      "B"
+    ],
+    "explanation": "卷积操作通过滤波器（卷积核）提取图像的局部特征，并可以通过池化层对图像进行降维，减少计算复杂度。",
+    "category": "计算机视觉基础",
+    "difficulty": "简单",
+    "sourceRow": 43
+  },
+  {
+    "id": "多选题-44",
+    "type": "多选题",
+    "text": "在深度学习中，使用迁移学习的优势是什么？",
+    "options": [
+      {
+        "key": "A",
+        "text": "可以减少训练时间"
+      },
+      {
+        "key": "B",
+        "text": "适用于没有大量标注数据的任务"
+      },
+      {
+        "key": "C",
+        "text": "使得模型不容易过拟合"
+      },
+      {
+        "key": "D",
+        "text": "可以减少计算资源的消耗"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "explanation": "迁移学习通过利用已有模型的预训练权重，减少了训练时间和计算资源的消耗，并且在标注数据有限的情况下仍能取得不错的性能。",
+    "category": "计算机视觉基础",
+    "difficulty": "普通",
+    "sourceRow": 44
+  },
+  {
+    "id": "多选题-45",
+    "type": "多选题",
+    "text": "在图像分类模型中，为什么使用批量归一化（Batch Normalization）？",
+    "options": [
+      {
+        "key": "A",
+        "text": "加速模型训练"
+      },
+      {
+        "key": "B",
+        "text": "提高模型的准确性"
+      },
+      {
+        "key": "C",
+        "text": "使得网络更深时训练更加稳定"
+      },
+      {
+        "key": "D",
+        "text": "减少训练数据的需求"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "批量归一化有助于加速训练过程，稳定训练过程并提高最终模型的准确性。它通过规范化每一层的输入，解决了梯度消失和梯度爆炸的问题。",
+    "category": "计算机视觉基础",
+    "difficulty": "普通",
+    "sourceRow": 45
+  },
+  {
+    "id": "多选题-46",
+    "type": "多选题",
+    "text": "在图像分类模型的训练过程中，通常使用以下哪些优化算法？",
+    "options": [
+      {
+        "key": "A",
+        "text": "梯度下降 (GD)"
+      },
+      {
+        "key": "B",
+        "text": "随机梯度下降 (SGD)"
+      },
+      {
+        "key": "C",
+        "text": "Adam优化器"
+      },
+      {
+        "key": "D",
+        "text": "线性回归优化"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "梯度下降、随机梯度下降和Adam优化器是常用的优化算法。线性回归优化通常不用于深度学习中的图像分类。",
+    "category": "计算机视觉基础",
+    "difficulty": "普通",
+    "sourceRow": 46
+  },
+  {
+    "id": "多选题-47",
+    "type": "多选题",
+    "text": "以下哪些属于语义分割任务？",
+    "options": [
+      {
+        "key": "A",
+        "text": "识别医学图像中的器官"
+      },
+      {
+        "key": "B",
+        "text": "检测卫星图像中的建筑物"
+      },
+      {
+        "key": "C",
+        "text": "区分自然图像中的天空、草地和河流"
+      },
+      {
+        "key": "D",
+        "text": "对人脸识别图像进行性别分类"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "A: 医学图像中的器官识别是一种典型的语义分割任务，每个像素需要被标注为某个器官类别。B: 卫星图像中的建筑物检测也是语义分割任务，需要将图像中的每个像素标注为建筑物或背景。C: 自然图像中的天空、草地和河流区分也是语义分割任务，需要对每个像素进行类别标注。D: 人脸识别是分类任务，不属于语义分割。",
+    "category": "计算机视觉基础",
+    "difficulty": "简单",
+    "sourceRow": 47
+  },
+  {
+    "id": "多选题-48",
+    "type": "多选题",
+    "text": "在语义分割中，模型对小目标分割效果不佳的原因可能是什么？",
+    "options": [
+      {
+        "key": "A",
+        "text": "小目标特征在深层网络中容易被淹没"
+      },
+      {
+        "key": "B",
+        "text": "模型感受野过大"
+      },
+      {
+        "key": "C",
+        "text": "小目标在训练数据中占比少"
+      },
+      {
+        "key": "D",
+        "text": "模型分辨率不够高"
+      }
+    ],
+    "answer": [
+      "A",
+      "C",
+      "D"
+    ],
+    "explanation": "小目标特征可能在深层网络中被忽略，而较大的感受野无法捕捉到细节。小目标在训练数据中占比少，可能导致模型无法有效学习这些特征，模型分辨率不够高也会影响小物体的分割效果。",
+    "category": "计算机视觉基础",
+    "difficulty": "困难",
+    "sourceRow": 48
+  },
+  {
+    "id": "多选题-49",
+    "type": "多选题",
+    "text": "在语义分割中，Dice Loss 相比于交叉熵损失的优势在于（ ）。",
+    "options": [
+      {
+        "key": "A",
+        "text": "更关注类别不均衡问题"
+      },
+      {
+        "key": "B",
+        "text": "计算速度更快"
+      },
+      {
+        "key": "C",
+        "text": "对边界分割更敏感"
+      },
+      {
+        "key": "D",
+        "text": "更易于实现"
+      }
+    ],
+    "answer": [
+      "A",
+      "C"
+    ],
+    "explanation": "Dice Loss在处理类别不均衡时更有效，尤其适用于医学图像分割，能够提升对边界分割的敏感度。它的计算速度并不比交叉熵损失快，且实现难度较交叉熵更大。",
+    "category": "计算机视觉基础",
+    "difficulty": "普通",
+    "sourceRow": 49
+  },
+  {
+    "id": "多选题-50",
+    "type": "多选题",
+    "text": "语义分割中多尺度特征融合的方法有（ ）。",
+    "options": [
+      {
+        "key": "A",
+        "text": "直接拼接不同尺度的特征图"
+      },
+      {
+        "key": "B",
+        "text": "对不同尺度特征图进行加权融合"
+      },
+      {
+        "key": "C",
+        "text": "使用金字塔池化模块"
+      },
+      {
+        "key": "D",
+        "text": "先降维再融合"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "explanation": "多尺度特征融合可以通过多种方法实现，其中包括直接拼接不同尺度的特征图、加权融合以及金字塔池化模块等。降维操作也可以在某些情况下帮助融合不同尺度的特征，提升模型性能。",
+    "category": "计算机视觉基础",
+    "difficulty": "普通",
+    "sourceRow": 50
+  },
+  {
+    "id": "多选题-51",
+    "type": "多选题",
+    "text": "大语言模型的应用场景有（ ）",
+    "options": [
+      {
+        "key": "A",
+        "text": "智能客服"
+      },
+      {
+        "key": "B",
+        "text": "自动驾驶"
+      },
+      {
+        "key": "C",
+        "text": "机器翻译"
+      },
+      {
+        "key": "D",
+        "text": "智能写作"
+      }
+    ],
+    "answer": [
+      "A",
+      "C",
+      "D"
+    ],
+    "explanation": "智能客服、机器翻译、智能写作是大语言模型常见应用，自动驾驶主要涉及计算机视觉和传感器技术。",
+    "category": "自然语言处理",
+    "difficulty": "简单",
+    "sourceRow": 51
+  },
+  {
+    "id": "多选题-52",
+    "type": "多选题",
+    "text": "评估大语言模型生成文本多样性的指标有（ ）",
+    "options": [
+      {
+        "key": "A",
+        "text": "MAUVE"
+      },
+      {
+        "key": "B",
+        "text": "BLEU"
+      },
+      {
+        "key": "C",
+        "text": "熵"
+      },
+      {
+        "key": "D",
+        "text": "ROUGE"
+      }
+    ],
+    "answer": [
+      "A",
+      "C"
+    ],
+    "explanation": "MAUVE 和熵可评估生成文本多样性，BLEU 和 ROUGE 主要评估生成文本与参考文本相似度。",
+    "category": "自然语言处理",
+    "difficulty": "困难",
+    "sourceRow": 52
+  },
+  {
+    "id": "多选题-53",
+    "type": "多选题",
+    "text": "大语言模型使用的层归一化（Layer Normalization）在复杂应用场景下，以下描述准确的有（ ）",
+    "options": [
+      {
+        "key": "A",
+        "text": "当处理具有不同尺度特征的输入数据时，层归一化可能无法有效归一化所有特征，需结合特征缩放等预处理方法"
+      },
+      {
+        "key": "B",
+        "text": "在循环神经网络（RNN）与 Transformer 结合的架构中，层归一化在 RNN 部分的应用方式与在 Transformer 部分有所不同，需考虑序列动态特性"
+      },
+      {
+        "key": "C",
+        "text": "层归一化的计算过程中，均值和方差的计算基于单个样本内所有元素，这在处理高维稀疏数据时可能导致信息丢失"
+      },
+      {
+        "key": "D",
+        "text": "为提升层归一化在复杂场景下的性能，可引入自适应参数，使其能根据输入数据的统计特性动态调整归一化操作"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "explanation": "不同尺度特征需预处理，RNN 与 Transformer 中应用方式不同，高维稀疏数据可能信息丢失，引入自适应参数可提升性能。",
+    "category": "自然语言处理",
+    "difficulty": "困难",
+    "sourceRow": 53
+  },
+  {
+    "id": "多选题-54",
+    "type": "多选题",
+    "text": "大语言模型的技术路线包含（ ）",
+    "options": [
+      {
+        "key": "A",
+        "text": "基于 Transformer 架构"
+      },
+      {
+        "key": "B",
+        "text": "基于决策树"
+      },
+      {
+        "key": "C",
+        "text": "基于循环神经网络（RNN）"
+      },
+      {
+        "key": "D",
+        "text": "基于贝叶斯网络"
+      }
+    ],
+    "answer": [
+      "A",
+      "C"
+    ],
+    "explanation": "Transformer 架构和 RNN 是大语言模型相关技术路线，决策树和贝叶斯网络不属于大语言模型主流技术。",
+    "category": "自然语言处理",
+    "difficulty": "普通",
+    "sourceRow": 54
+  },
+  {
+    "id": "多选题-55",
+    "type": "多选题",
+    "text": "大语言模型的持续学习技术目标包括（ ）",
+    "options": [
+      {
+        "key": "A",
+        "text": "不断学习新知识"
+      },
+      {
+        "key": "B",
+        "text": "避免遗忘旧知识"
+      },
+      {
+        "key": "C",
+        "text": "减少模型参数更新"
+      },
+      {
+        "key": "D",
+        "text": "适应新的任务和领域"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "explanation": "持续学习旨在让模型不断学习新知识、避免遗忘旧知识、适应新任务和领域，模型参数更新是学习过程必然存在的。",
+    "category": "自然语言处理",
+    "difficulty": "普通",
+    "sourceRow": 55
+  },
+  {
+    "id": "多选题-56",
+    "type": "多选题",
+    "text": "以下哪些选项是情感分析（Sentiment Analysis）的常见应用领域？",
+    "options": [
+      {
+        "key": "A",
+        "text": "社交媒体评论分析"
+      },
+      {
+        "key": "B",
+        "text": "金融市场情绪分析"
+      },
+      {
+        "key": "C",
+        "text": "客户反馈分析"
+      },
+      {
+        "key": "D",
+        "text": "计算机视觉任务"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "情感分析主要用于文本数据，而计算机视觉任务主要处理图像。",
+    "category": "自然语言处理",
+    "difficulty": "简单",
+    "sourceRow": 56
+  },
+  {
+    "id": "多选题-57",
+    "type": "多选题",
+    "text": "在 BERT 训练过程中，以下哪些选项是 Masked Language Model（MLM）的核心操作？",
+    "options": [
+      {
+        "key": "A",
+        "text": "随机屏蔽输入文本中的部分单词"
+      },
+      {
+        "key": "B",
+        "text": "让模型预测被屏蔽的单词"
+      },
+      {
+        "key": "C",
+        "text": "仅使用单向上下文信息"
+      },
+      {
+        "key": "D",
+        "text": "通过双向建模学习上下文信息"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "explanation": "BERT 使用 MLM 进行双向建模，而不是单向建模。",
+    "category": "自然语言处理",
+    "difficulty": "困难",
+    "sourceRow": 57
+  },
+  {
+    "id": "多选题-58",
+    "type": "多选题",
+    "text": "在情感分析任务中，如何防止模型过拟合？",
+    "options": [
+      {
+        "key": "A",
+        "text": "采用数据增强（Data Augmentation）"
+      },
+      {
+        "key": "B",
+        "text": "使用正则化技术（如 Dropout）"
+      },
+      {
+        "key": "C",
+        "text": "限制模型的训练轮次（Epoch）"
+      },
+      {
+        "key": "D",
+        "text": "只使用训练数据进行评估"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "只使用训练数据进行评估无法防止过拟合，需用验证集评估泛化能力。",
+    "category": "自然语言处理",
+    "difficulty": "普通",
+    "sourceRow": 58
+  },
+  {
+    "id": "多选题-59",
+    "type": "多选题",
+    "text": "在处理跨语言情感分析任务时，以下哪些方法可以提高模型的泛化能力？",
+    "options": [
+      {
+        "key": "A",
+        "text": "使用多语言 BERT（mBERT）"
+      },
+      {
+        "key": "B",
+        "text": "使用机器翻译将文本转换为目标语言"
+      },
+      {
+        "key": "C",
+        "text": "直接在目标语言上训练单独的模型"
+      },
+      {
+        "key": "D",
+        "text": "仅使用英文数据训练模型"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": "仅使用英文数据会降低跨语言任务的泛化能力。",
+    "category": "自然语言处理",
+    "difficulty": "普通",
+    "sourceRow": 59
+  },
+  {
+    "id": "多选题-60",
+    "type": "多选题",
+    "text": "下列哪些属于深度学习的代表性网络结构？",
+    "options": [
+      {
+        "key": "A",
+        "text": "卷积神经网络（CNN）"
+      },
+      {
+        "key": "B",
+        "text": "循环神经网络（RNN）"
+      },
+      {
+        "key": "C",
+        "text": "决策树"
+      },
+      {
+        "key": "D",
+        "text": "Transformer"
+      }
+    ],
+    "answer": [
+      "A",
+      "B",
+      "D"
+    ],
+    "explanation": "",
+    "category": "未分类",
+    "difficulty": "未标注",
+    "sourceRow": 60
+  },
+  {
+    "id": "判断题-2",
+    "type": "判断题",
+    "text": "GPT-3是由Google提出的自然语言处理模型，拥有1750亿个参数。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "错误"
+    ],
+    "explanation": "GPT-3是由OpenAI提出的自然语言处理模型，它确实拥有1750亿个参数，但不是由Google提出的。",
+    "category": "人工智能理论基础",
+    "difficulty": "简单",
+    "sourceRow": 2
+  },
+  {
+    "id": "判断题-3",
+    "type": "判断题",
+    "text": "AlphaGo是第一个战胜国际象棋世界冠军的人工智能程序。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "错误"
+    ],
+    "explanation": "AlphaGo是第一个战胜围棋世界冠军李世石的人工智能程序，而不是国际象棋冠军。DeepBlue才是第一个战胜国际象棋世界冠军的程序。",
+    "category": "人工智能理论基础",
+    "difficulty": "简单",
+    "sourceRow": 3
+  },
+  {
+    "id": "判断题-4",
+    "type": "判断题",
+    "text": "“人工智能寒冬”是指人工智能研究陷入了停滞，资金支持大幅减少的时期。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "正确"
+    ],
+    "explanation": "“人工智能寒冬”指的是由于早期过高的期望未能实现，人工智能研究经历了一段时间的低谷期，研究资金和关注度大幅减少。",
+    "category": "人工智能理论基础",
+    "difficulty": "简单",
+    "sourceRow": 4
+  },
+  {
+    "id": "判断题-5",
+    "type": "判断题",
+    "text": "反向传播算法通过链式法则计算每个参数的梯度，并根据梯度更新权重。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "正确"
+    ],
+    "explanation": "反向传播算法正是通过链式法则计算梯度，然后利用梯度更新神经网络的参数。",
+    "category": "人工智能理论基础",
+    "difficulty": "简单",
+    "sourceRow": 5
+  },
+  {
+    "id": "判断题-6",
+    "type": "判断题",
+    "text": "在神经网络中，训练时需要通过反向传播来计算梯度并更新权重。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "正确"
+    ],
+    "explanation": "反向传播算法计算梯度并通过梯度下降法更新权重。",
+    "category": "人工智能理论基础",
+    "difficulty": "简单",
+    "sourceRow": 6
+  },
+  {
+    "id": "判断题-7",
+    "type": "判断题",
+    "text": "反向传播算法中的梯度更新遵循的是先更新隐藏层，再更新输出层的顺序。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "错误"
+    ],
+    "explanation": "反向传播的True顺序是先更新输出层，然后通过反向传播逐层更新隐藏层的权重。",
+    "category": "人工智能理论基础",
+    "difficulty": "普通",
+    "sourceRow": 7
+  },
+  {
+    "id": "判断题-8",
+    "type": "判断题",
+    "text": "Adam优化算法结合了Momentum和RMSprop的优点，能自动调整学习率。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "正确"
+    ],
+    "explanation": "Adam算法结合了动量法和RMSprop自适应学习率的方法，能够加速训练过程并提高模型的性能。",
+    "category": "人工智能理论基础",
+    "difficulty": "普通",
+    "sourceRow": 8
+  },
+  {
+    "id": "判断题-9",
+    "type": "判断题",
+    "text": "在深度学习中，过拟合通常是由于训练数据不足导致的。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "正确"
+    ],
+    "explanation": "过拟合通常发生在训练数据过少或模型过于复杂的情况下，模型在训练集上表现良好，但在测试集上表现较差。",
+    "category": "人工智能理论基础",
+    "difficulty": "简单",
+    "sourceRow": 9
+  },
+  {
+    "id": "判断题-10",
+    "type": "判断题",
+    "text": "模型在训练数据上获得非常高的准确率时，通常表明模型的泛化能力较强。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "错误"
+    ],
+    "explanation": "高准确率仅表示模型在训练数据上表现好，泛化能力强则需要测试集的评估。",
+    "category": "人工智能理论基础",
+    "difficulty": "简单",
+    "sourceRow": 10
+  },
+  {
+    "id": "判断题-11",
+    "type": "判断题",
+    "text": "在机器学习中，训练集和测试集的主要作用是相同的。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "错误"
+    ],
+    "explanation": "训练集用于训练模型，测试集用于评估模型的泛化能力，两者作用不同。",
+    "category": "人工智能理论基础",
+    "difficulty": "简单",
+    "sourceRow": 11
+  },
+  {
+    "id": "判断题-12",
+    "type": "判断题",
+    "text": "大规模预训练语言模型（如BERT、GPT）只适用于自然语言处理任务，不能应用于其他领域。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "错误"
+    ],
+    "explanation": "虽然大规模预训练语言模型（如BERT、GPT）主要用于自然语言处理任务，但它们也可以通过迁移学习应用于其他领域，如计算机视觉、语音识别等。",
+    "category": "人工智能理论基础",
+    "difficulty": "简单",
+    "sourceRow": 12
+  },
+  {
+    "id": "判断题-13",
+    "type": "判断题",
+    "text": "人工神经网络的工作方式是模仿人类大脑的神经结构。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "正确"
+    ],
+    "explanation": "人工神经网络是受到人类大脑神经结构启发而设计的，它通过层次结构和节点之间的连接来模拟人类的大脑处理信息的方式。",
+    "category": "人工智能理论基础",
+    "difficulty": "简单",
+    "sourceRow": 13
+  },
+  {
+    "id": "判断题-14",
+    "type": "判断题",
+    "text": "机器学习算法是一种自我提升的算法，可以通过经验不断优化自己。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "正确"
+    ],
+    "explanation": "机器学习通过输入数据进行训练，模型可以根据新的数据进行调整，从而自我提升和优化。",
+    "category": "人工智能理论基础",
+    "difficulty": "简单",
+    "sourceRow": 14
+  },
+  {
+    "id": "判断题-15",
+    "type": "判断题",
+    "text": "人工智能的“图灵测试”用于评估机器是否具备人类水平的创造力。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "错误"
+    ],
+    "explanation": "图灵测试用于评估机器是否具备人类级别的智能，通过与人类进行对话，判断机器是否能够模仿人类的思维，而不是评估创造力。",
+    "category": "人工智能理论基础",
+    "difficulty": "简单",
+    "sourceRow": 15
+  },
+  {
+    "id": "判断题-16",
+    "type": "判断题",
+    "text": "非监督学习方法（如 K-Means）通常用于情感分析的分类任务。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "错误"
+    ],
+    "explanation": "分类任务主要使用监督学习方法。",
+    "category": "人工智能理论基础",
+    "difficulty": "普通",
+    "sourceRow": 16
+  },
+  {
+    "id": "判断题-17",
+    "type": "判断题",
+    "text": "在卷积神经网络（CNN）中，池化层（Pooling Layer）主要用于增加特征图的空间维度。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "错误"
+    ],
+    "explanation": "池化层的主要作用是减少特征图的空间尺寸，从而降低计算量，并保持最显著的特征。",
+    "category": "人工智能理论基础",
+    "difficulty": "简单",
+    "sourceRow": 17
+  },
+  {
+    "id": "判断题-18",
+    "type": "判断题",
+    "text": "池化（Pooling）操作用于减少特征图的维度。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "正确"
+    ],
+    "explanation": "池化操作（如最大池化或平均池化）可以减少特征图的尺寸，同时保留重要特征。",
+    "category": "人工智能理论基础",
+    "difficulty": "简单",
+    "sourceRow": 18
+  },
+  {
+    "id": "判断题-19",
+    "type": "判断题",
+    "text": "注意力机制在自然语言处理任务中可以帮助模型关注输入序列中的关键部分。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "正确"
+    ],
+    "explanation": "注意力机制通过为不同部分分配不同的权重，使模型能够聚焦于最重要的输入信息，尤其在机器翻译等任务中非常有效。",
+    "category": "人工智能理论基础",
+    "difficulty": "简单",
+    "sourceRow": 19
+  },
+  {
+    "id": "判断题-20",
+    "type": "判断题",
+    "text": "Batch Normalization（批量归一化）可以帮助加速网络训练，同时减少过拟合的可能性。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "正确"
+    ],
+    "explanation": "批量归一化通过对每一层的输入进行标准化，能够加速训练过程，并改善模型的稳定性。",
+    "category": "人工智能理论基础",
+    "difficulty": "简单",
+    "sourceRow": 20
+  },
+  {
+    "id": "判断题-21",
+    "type": "判断题",
+    "text": "卷积神经网络中的卷积操作有助于提取局部特征，而池化操作则进一步降低特征的空间维度。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "正确"
+    ],
+    "explanation": "卷积操作提取局部特征，池化操作通过降采样进一步减少特征图的尺寸，从而降低计算量。",
+    "category": "人工智能理论基础",
+    "difficulty": "简单",
+    "sourceRow": 21
+  },
+  {
+    "id": "判断题-22",
+    "type": "判断题",
+    "text": "循环神经网络（RNN）适合处理时序数据，但在训练时容易出现梯度消失问题。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "正确"
+    ],
+    "explanation": "RNN在处理时序数据时非常有效，但其在长序列数据上容易遇到梯度消失问题，LSTM和GRU是为了解决这一问题而提出的变种。",
+    "category": "人工智能理论基础",
+    "difficulty": "简单",
+    "sourceRow": 22
+  },
+  {
+    "id": "判断题-23",
+    "type": "判断题",
+    "text": "在神经网络中，ReLU激活函数的优点是能有效避免梯度消失问题。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "正确"
+    ],
+    "explanation": "ReLU在正区间内是线性的，因此避免了sigmoid和tanh函数可能带来的梯度消失问题。",
+    "category": "人工智能理论基础",
+    "difficulty": "简单",
+    "sourceRow": 23
+  },
+  {
+    "id": "判断题-24",
+    "type": "判断题",
+    "text": "在LSTM中，遗忘门决定了哪些信息将从单元状态中丢弃。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "正确"
+    ],
+    "explanation": "LSTM通过遗忘门来控制单元状态中哪些信息应该被遗忘，以保持模型的长期记忆。",
+    "category": "人工智能理论基础",
+    "difficulty": "普通",
+    "sourceRow": 24
+  },
+  {
+    "id": "判断题-25",
+    "type": "判断题",
+    "text": "长短时记忆网络（LSTM）和门控循环单元（GRU）都是为了克服传统RNN在长序列数据上遇到的梯度消失问题。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "正确"
+    ],
+    "explanation": "LSTM和GRU通过引入门控机制来控制信息的流动，有效避免了传统RNN在长时间序列上遇到的梯度消失问题。",
+    "category": "人工智能理论基础",
+    "difficulty": "普通",
+    "sourceRow": 25
+  },
+  {
+    "id": "判断题-26",
+    "type": "判断题",
+    "text": "卷积神经网络中的全连接层（Fully Connected Layer）通常位于网络的最后几层。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "正确"
+    ],
+    "explanation": "全连接层通常位于卷积层和池化层之后，用于将提取的特征映射到最终的分类结果。",
+    "category": "人工智能理论基础",
+    "difficulty": "普通",
+    "sourceRow": 26
+  },
+  {
+    "id": "判断题-27",
+    "type": "判断题",
+    "text": "语义分割数据集不需要提供像素级的标签，只需要类别信息即可。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "错误"
+    ],
+    "explanation": "语义分割任务要求为每个像素分配类别标签，因此需要像素级标注。",
+    "category": "数据采集与标注",
+    "difficulty": "简单",
+    "sourceRow": 27
+  },
+  {
+    "id": "判断题-28",
+    "type": "判断题",
+    "text": "在数据集划分时，测试集通常占比最大，以保证模型的最终性能。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "错误"
+    ],
+    "explanation": "训练集通常占比最大，以保证模型学习足够的信息。",
+    "category": "数据采集与标注",
+    "difficulty": "简单",
+    "sourceRow": 28
+  },
+  {
+    "id": "判断题-29",
+    "type": "判断题",
+    "text": "数据集标注的标准化和一致性对模型训练影响不大。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "错误"
+    ],
+    "explanation": "标注不一致可能导致模型学习错误模式，从而影响训练效果。",
+    "category": "数据采集与标注",
+    "difficulty": "普通",
+    "sourceRow": 29
+  },
+  {
+    "id": "判断题-30",
+    "type": "判断题",
+    "text": "图像数据标注的主要目的是为机器学习模型提供训练数据。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "正确"
+    ],
+    "explanation": "数据标注的目的是为监督学习提供高质量的训练数据，提高模型性能。",
+    "category": "数据采集与标注",
+    "difficulty": "简单",
+    "sourceRow": 30
+  },
+  {
+    "id": "判断题-31",
+    "type": "判断题",
+    "text": "目标检测任务的标注数据通常包含目标类别和目标位置。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "正确"
+    ],
+    "explanation": "目标检测不仅需要识别对象类别，还需要提供其在图像中的位置信息，如边界框。",
+    "category": "数据采集与标注",
+    "difficulty": "简单",
+    "sourceRow": 31
+  },
+  {
+    "id": "判断题-32",
+    "type": "判断题",
+    "text": "图像分类任务的标注通常只需要一个类别标签，而不需要标注目标位置。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "正确"
+    ],
+    "explanation": "图像分类只需要给整张图片分配一个类别标签，而不涉及目标位置标注。",
+    "category": "数据采集与标注",
+    "difficulty": "简单",
+    "sourceRow": 32
+  },
+  {
+    "id": "判断题-33",
+    "type": "判断题",
+    "text": "在众包平台上进行数据标注时，不同标注员的标注结果通常完全一致。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "错误"
+    ],
+    "explanation": "由于主观因素和理解差异，不同标注员的结果可能存在差异，需要一致性检查。",
+    "category": "数据采集与标注",
+    "difficulty": "普通",
+    "sourceRow": 33
+  },
+  {
+    "id": "判断题-34",
+    "type": "判断题",
+    "text": "采用自动化数据标注方法可以完全替代人工标注。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "错误"
+    ],
+    "explanation": "自动化标注可以减少人工工作量，但仍需要人工审核确保标注质量。",
+    "category": "数据采集与标注",
+    "difficulty": "普通",
+    "sourceRow": 34
+  },
+  {
+    "id": "判断题-35",
+    "type": "判断题",
+    "text": "数据预处理包括数据清洗、归一化、标准化和数据增强等步骤。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "正确"
+    ],
+    "explanation": "数据预处理是机器学习过程中必不可少的步骤，包括清洗、归一化、标准化等。",
+    "category": "数据采集与标注",
+    "difficulty": "简单",
+    "sourceRow": 35
+  },
+  {
+    "id": "判断题-36",
+    "type": "判断题",
+    "text": "数据增强技术可以通过对现有数据进行旋转、平移等操作，增加训练数据的多样性。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "正确"
+    ],
+    "explanation": "数据增强通过对现有数据进行变换来增加数据集的多样性，帮助防止过拟合。",
+    "category": "数据采集与标注",
+    "difficulty": "简单",
+    "sourceRow": 36
+  },
+  {
+    "id": "判断题-37",
+    "type": "判断题",
+    "text": "二值化（Binarization）是将图像转换为黑白图像的过程。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "正确"
+    ],
+    "explanation": "二值化是将图像中的每个像素转换为0或1（黑色或白色）的过程。",
+    "category": "数据采集与标注",
+    "difficulty": "简单",
+    "sourceRow": 37
+  },
+  {
+    "id": "判断题-38",
+    "type": "判断题",
+    "text": "标准化是将数据的值转换为具有相同均值和标准差的分布。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "正确"
+    ],
+    "explanation": "标准化是数据预处理中的一种方法，目的是将数据转换为均值为0、标准差为1的分布。",
+    "category": "数据采集与标注",
+    "difficulty": "普通",
+    "sourceRow": 38
+  },
+  {
+    "id": "判断题-39",
+    "type": "判断题",
+    "text": "ResNet 的主要创新点是引入了密集连接，以减少梯度消失问题。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "错误"
+    ],
+    "explanation": "ResNet 主要依赖 残差连接（Residual Connections），而密集连接是 DenseNet 的特性。",
+    "category": "模型搭建与开发",
+    "difficulty": "简单",
+    "sourceRow": 39
+  },
+  {
+    "id": "判断题-40",
+    "type": "判断题",
+    "text": "AlexNet 之所以比 LeNet 更成功，主要原因是引入了 更深的网络结构 和 ReLU 激活函数。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "正确"
+    ],
+    "explanation": "AlexNet 在 LeNet 基础上增加了网络深度，并引入了 ReLU 来加速训练。",
+    "category": "模型搭建与开发",
+    "difficulty": "普通",
+    "sourceRow": 40
+  },
+  {
+    "id": "判断题-41",
+    "type": "判断题",
+    "text": "DenseNet 通过特征复用（Feature Reuse）来提高梯度流，并减少参数量。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "正确"
+    ],
+    "explanation": "DenseNet 的核心思想是 密集连接（Dense Connections），提高特征利用率并减少计算量。",
+    "category": "模型搭建与开发",
+    "difficulty": "普通",
+    "sourceRow": 41
+  },
+  {
+    "id": "判断题-42",
+    "type": "判断题",
+    "text": "Inception 模型的核心思想是使用不同尺度的卷积核，以捕获多尺度特征。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "正确"
+    ],
+    "explanation": "Inception 采用多种卷积核组合，如 1x1、3x3 和 5x5，以获取丰富的特征信息。",
+    "category": "模型搭建与开发",
+    "difficulty": "普通",
+    "sourceRow": 42
+  },
+  {
+    "id": "判断题-43",
+    "type": "判断题",
+    "text": "Transformer 架构主要用于图像分类，而 CNN 主要用于自然语言处理。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "错误"
+    ],
+    "explanation": "Transformer 主要应用于 NLP，但 ViT（Vision Transformer） 在计算机视觉中也取得了成功。",
+    "category": "模型搭建与开发",
+    "difficulty": "困难",
+    "sourceRow": 43
+  },
+  {
+    "id": "判断题-44",
+    "type": "判断题",
+    "text": "目标检测算法 Faster R-CNN 相比 YOLO 速度更快，适用于实时检测任务。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "错误"
+    ],
+    "explanation": "Faster R-CNN 在检测精度上优于 YOLO，但速度较慢，不适用于实时检测。",
+    "category": "模型搭建与开发",
+    "difficulty": "困难",
+    "sourceRow": 44
+  },
+  {
+    "id": "判断题-45",
+    "type": "判断题",
+    "text": "SENet 采用通道注意力机制来增强重要特征的表达能力。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "正确"
+    ],
+    "explanation": "SENet 通过通道注意力 增强重要特征通道的权重，提升特征提取能力。",
+    "category": "模型搭建与开发",
+    "difficulty": "简单",
+    "sourceRow": 45
+  },
+  {
+    "id": "判断题-46",
+    "type": "判断题",
+    "text": "Self-Attention 仅适用于自然语言处理（NLP），不适用于计算机视觉。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "错误"
+    ],
+    "explanation": "ViT 采用 Self-Attention 进行视觉特征提取，已广泛应用于 CV 任务。",
+    "category": "模型搭建与开发",
+    "difficulty": "简单",
+    "sourceRow": 46
+  },
+  {
+    "id": "判断题-47",
+    "type": "判断题",
+    "text": "1x1 卷积在 SE 模块中主要用于降低计算复杂度。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "正确"
+    ],
+    "explanation": "1x1 卷积 减少计算复杂度，同时增强通道间的信息交互。",
+    "category": "模型搭建与开发",
+    "difficulty": "普通",
+    "sourceRow": 47
+  },
+  {
+    "id": "判断题-48",
+    "type": "判断题",
+    "text": "在 Self-Attention 机制中，计算注意力权重时通常使用 Softmax 归一化。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "正确"
+    ],
+    "explanation": "Softmax 归一化 确保注意力得分归一化，保持数值稳定性。",
+    "category": "模型搭建与开发",
+    "difficulty": "普通",
+    "sourceRow": 48
+  },
+  {
+    "id": "判断题-49",
+    "type": "判断题",
+    "text": "目标检测模型 Faster R-CNN 采用 CBAM 模块提升特征提取能力。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "错误"
+    ],
+    "explanation": "Faster R-CNN 通常不直接使用 CBAM，而是依赖 RPN（区域提议网络）进行目标提议。",
+    "category": "模型搭建与开发",
+    "difficulty": "困难",
+    "sourceRow": 49
+  },
+  {
+    "id": "判断题-50",
+    "type": "判断题",
+    "text": "在训练卷积神经网络时，学习率是影响模型训练速度和收敛性的一个重要超参数。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "正确"
+    ],
+    "explanation": "学习率控制着模型在每次迭代时参数更新的步长，是优化过程中的关键超参数。",
+    "category": "模型训练与测试",
+    "difficulty": "简单",
+    "sourceRow": 50
+  },
+  {
+    "id": "判断题-51",
+    "type": "判断题",
+    "text": "训练深度学习模型时，学习率（learning rate）越大，模型收敛速度越快，因此总是选择较大的学习率较好。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "错误"
+    ],
+    "explanation": "过大的学习率可能导致 梯度震荡或无法收敛，需要适当调整。",
+    "category": "模型训练与测试",
+    "difficulty": "简单",
+    "sourceRow": 51
+  },
+  {
+    "id": "判断题-52",
+    "type": "判断题",
+    "text": "Adam 优化器比 SGD 具有更稳定的收敛性能，适用于大多数深度学习任务。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "正确"
+    ],
+    "explanation": "Adam 使用自适应学习率，可以提高收敛稳定性，尤其在初始阶段。",
+    "category": "模型训练与测试",
+    "difficulty": "简单",
+    "sourceRow": 52
+  },
+  {
+    "id": "判断题-53",
+    "type": "判断题",
+    "text": "正则化参数（如 L2 正则化系数）过大可能会导致模型欠拟合。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "正确"
+    ],
+    "explanation": "过大的 L2 正则化 可能导致权重过小，影响模型学习能力，导致欠拟合。",
+    "category": "模型训练与测试",
+    "difficulty": "普通",
+    "sourceRow": 53
+  },
+  {
+    "id": "判断题-54",
+    "type": "判断题",
+    "text": "在神经网络训练过程中，batch normalization（BN）层的使用与批次大小（batch size）的选择无关。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "错误"
+    ],
+    "explanation": "BN 计算均值和方差时 依赖 batch size，过小的 batch size 可能影响 BN 计算。",
+    "category": "模型训练与测试",
+    "difficulty": "困难",
+    "sourceRow": 54
+  },
+  {
+    "id": "判断题-55",
+    "type": "判断题",
+    "text": "在神经网络中，过拟合是指模型在训练集上表现差，在测试集上表现好。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "错误"
+    ],
+    "explanation": "过拟合是指模型在训练集上表现好，但在测试集上表现差，因为模型学习到了训练集中的噪声和不必要的细节。",
+    "category": "模型训练与测试",
+    "difficulty": "简单",
+    "sourceRow": 55
+  },
+  {
+    "id": "判断题-56",
+    "type": "判断题",
+    "text": "在训练神经网络时，早停（Early Stopping）是一种常见的防止过拟合的技术。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "正确"
+    ],
+    "explanation": "早停法通过监控验证集的损失来停止训练，避免模型在训练集上过拟合。",
+    "category": "模型训练与测试",
+    "difficulty": "简单",
+    "sourceRow": 56
+  },
+  {
+    "id": "判断题-57",
+    "type": "判断题",
+    "text": "在图像分类任务中，如果数据集中的某些类别样本极度不平衡，选择增加少数类样本或使用类别权重调整损失函数，通常会提高模型对少数类的识别能力。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "正确"
+    ],
+    "explanation": "数据不平衡可能导致模型偏向多数类，调整类别权重或增加少数类样本可以有效缓解这种偏向，使得模型更好地识别少数类。",
+    "category": "模型训练与测试",
+    "difficulty": "普通",
+    "sourceRow": 57
+  },
+  {
+    "id": "判断题-58",
+    "type": "判断题",
+    "text": "在图像分类任务中，使用过多的正则化方法（如Dropout、L2正则化等）可能会导致模型的欠拟合，即使数据量较大，模型也难以学习到足够的特征。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "正确"
+    ],
+    "explanation": "过多的正则化方法可能会过度抑制模型的学习能力，导致欠拟合。在大数据量的情况下，适度使用正则化能防止过拟合，但过度使用可能会削弱模型的表达能力。",
+    "category": "模型训练与测试",
+    "difficulty": "普通",
+    "sourceRow": 58
+  },
+  {
+    "id": "判断题-59",
+    "type": "判断题",
+    "text": "准确率（Accuracy）是情感分析任务最常用的评价指标之一。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "正确"
+    ],
+    "explanation": "",
+    "category": "模型训练与测试",
+    "difficulty": "简单",
+    "sourceRow": 59
+  },
+  {
+    "id": "判断题-60",
+    "type": "判断题",
+    "text": "交并比（IoU）通常用于衡量情感分析任务中的情感强度。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "错误"
+    ],
+    "explanation": "IoU 主要用于目标检测。",
+    "category": "模型训练与测试",
+    "difficulty": "普通",
+    "sourceRow": 60
+  },
+  {
+    "id": "判断题-61",
+    "type": "判断题",
+    "text": "在目标检测中，YOLOv3的输出包括目标的类别、边界框位置以及每个框的置信度。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "正确"
+    ],
+    "explanation": "YOLOv3在每个格子中预测每个框的类别概率、边界框位置（通过回归）和框的置信度。",
+    "category": "计算机视觉基础",
+    "difficulty": "简单",
+    "sourceRow": 61
+  },
+  {
+    "id": "判断题-62",
+    "type": "判断题",
+    "text": "YOLOv5是一款开源的目标检测算法，由Facebook AI研究团队提出。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "错误"
+    ],
+    "explanation": "YOLOv5是由Ultralytics团队提出的，而不是Facebook AI。",
+    "category": "计算机视觉基础",
+    "difficulty": "简单",
+    "sourceRow": 62
+  },
+  {
+    "id": "判断题-63",
+    "type": "判断题",
+    "text": "目标检测任务的应用场景包括自动驾驶、视频监控和人脸识别。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "正确"
+    ],
+    "explanation": "目标检测广泛应用于自动驾驶中的行人和障碍物识别、视频监控中的异常检测、人脸识别等场景。",
+    "category": "计算机视觉基础",
+    "difficulty": "简单",
+    "sourceRow": 63
+  },
+  {
+    "id": "判断题-64",
+    "type": "判断题",
+    "text": "卷积神经网络（CNN）是用于图像分类的一种常用深度学习模型。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "正确"
+    ],
+    "explanation": "卷积神经网络（CNN）因其在处理图像数据方面的出色表现而被广泛应用于图像分类任务中。",
+    "category": "计算机视觉基础",
+    "difficulty": "简单",
+    "sourceRow": 64
+  },
+  {
+    "id": "判断题-65",
+    "type": "判断题",
+    "text": "图像分类任务中，使用预训练模型可以显著提高模型的初始性能。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "正确"
+    ],
+    "explanation": "预训练模型已经在大量数据上进行了训练，因此在新任务上可以作为良好的起点，减少从零开始训练的时间和资源。",
+    "category": "计算机视觉基础",
+    "difficulty": "简单",
+    "sourceRow": 65
+  },
+  {
+    "id": "判断题-66",
+    "type": "判断题",
+    "text": "目标检测任务中的边界框回归（Bounding Box Regression）是用来预测图像中物体的位置和尺寸。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "正确"
+    ],
+    "explanation": "边界框回归用于目标检测任务中，帮助预测图像中物体的位置和大小，通常与分类任务一起进行。",
+    "category": "计算机视觉基础",
+    "difficulty": "简单",
+    "sourceRow": 66
+  },
+  {
+    "id": "判断题-67",
+    "type": "判断题",
+    "text": "卷积神经网络（CNN）能够通过层级化的方式学习图像中的不同级别的特征，从局部特征到全局特征。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "正确"
+    ],
+    "explanation": "CNN通过多层卷积层逐步提取图像中的低级到高级特征，因此非常适用于图像分类任务。",
+    "category": "计算机视觉基础",
+    "difficulty": "简单",
+    "sourceRow": 67
+  },
+  {
+    "id": "判断题-68",
+    "type": "判断题",
+    "text": "图像分割与图像分类是相同的概念。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "错误"
+    ],
+    "explanation": "图像分割是对图像中的每个像素进行分类，而图像分类是对整张图像进行分类。",
+    "category": "计算机视觉基础",
+    "difficulty": "简单",
+    "sourceRow": 68
+  },
+  {
+    "id": "判断题-69",
+    "type": "判断题",
+    "text": "激活函数ReLU在卷积神经网络中用于引入非线性。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "正确"
+    ],
+    "explanation": "ReLU（Rectified Linear Unit）激活函数能够引入非线性，帮助模型学习更复杂的特征。",
+    "category": "计算机视觉基础",
+    "difficulty": "简单",
+    "sourceRow": 69
+  },
+  {
+    "id": "判断题-70",
+    "type": "判断题",
+    "text": "交叉熵损失函数常用于评估图像分类模型的预测结果与真实标签之间的差异。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "正确"
+    ],
+    "explanation": "交叉熵损失函数是衡量分类模型预测概率分布与真实标签之间差异的常用指标。",
+    "category": "计算机视觉基础",
+    "difficulty": "简单",
+    "sourceRow": 70
+  },
+  {
+    "id": "判断题-71",
+    "type": "判断题",
+    "text": "迁移学习是指将一个模型在一个任务上学到的知识应用到另一个相关任务上的过程。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "正确"
+    ],
+    "explanation": "迁移学习利用已有的模型知识来加速新任务的学习过程，特别是在目标任务的数据量较少时特别有用。",
+    "category": "计算机视觉基础",
+    "difficulty": "简单",
+    "sourceRow": 71
+  },
+  {
+    "id": "判断题-72",
+    "type": "判断题",
+    "text": "Softmax函数通常用于多类别分类问题中，它能将模型输出转换成概率分布。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "正确"
+    ],
+    "explanation": "Softmax函数可以将神经网络的最后一层输出转化为概率分布，使得每个类别的概率之和为1。",
+    "category": "计算机视觉基础",
+    "difficulty": "简单",
+    "sourceRow": 72
+  },
+  {
+    "id": "判断题-73",
+    "type": "判断题",
+    "text": "图像分类是将输入的图像分配到一个或多个预定义类别的过程。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "正确"
+    ],
+    "explanation": "图像分类的目标是根据图像的内容将其归类到预先定义的类别中。",
+    "category": "计算机视觉基础",
+    "difficulty": "简单",
+    "sourceRow": 73
+  },
+  {
+    "id": "判断题-74",
+    "type": "判断题",
+    "text": "亚采样（Subsampling）是减少图像尺寸的一种方法。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "正确"
+    ],
+    "explanation": "亚采样（也称为下采样）通过减少图像尺寸来降低计算复杂度。",
+    "category": "计算机视觉基础",
+    "difficulty": "普通",
+    "sourceRow": 74
+  },
+  {
+    "id": "判断题-75",
+    "type": "判断题",
+    "text": "全连接层（Fully Connected Layer）通常位于卷积神经网络的末端。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "正确"
+    ],
+    "explanation": "全连接层通常用于将卷积层提取的特征映射到最终的类别空间。",
+    "category": "计算机视觉基础",
+    "difficulty": "普通",
+    "sourceRow": 75
+  },
+  {
+    "id": "判断题-76",
+    "type": "判断题",
+    "text": "语义分割只能处理彩色图像。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "错误"
+    ],
+    "explanation": "语义分割也可以处理灰度图像等其他类型的图像。",
+    "category": "计算机视觉基础",
+    "difficulty": "简单",
+    "sourceRow": 76
+  },
+  {
+    "id": "判断题-77",
+    "type": "判断题",
+    "text": "上采样操作会降低图像分辨率。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "错误"
+    ],
+    "explanation": "上采样操作用于增大图像分辨率。",
+    "category": "计算机视觉基础",
+    "difficulty": "简单",
+    "sourceRow": 77
+  },
+  {
+    "id": "判断题-78",
+    "type": "判断题",
+    "text": "在使用 DeepLabV3+ 进行语义分割时，空洞卷积的膨胀率越高，分割结果的计算复杂度越低。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "错误"
+    ],
+    "explanation": "空洞卷积通过增加膨胀率来扩展感受野，但膨胀率增高会导致计算复杂度的增加。膨胀率越高，处理的区域越广，所需的计算资源也会随之增多。",
+    "category": "计算机视觉基础",
+    "difficulty": "困难",
+    "sourceRow": 78
+  },
+  {
+    "id": "判断题-79",
+    "type": "判断题",
+    "text": "Dice Loss 对类别不均衡问题没有改善作用。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "错误"
+    ],
+    "explanation": "Dice Loss 更关注类别不均衡问题，对其有改善作用。",
+    "category": "计算机视觉基础",
+    "difficulty": "普通",
+    "sourceRow": 79
+  },
+  {
+    "id": "判断题-80",
+    "type": "判断题",
+    "text": "在多尺度特征融合中，FPN（特征金字塔网络）通过从较高层的特征图中提取信息来提高小目标的分割精度。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "正确"
+    ],
+    "explanation": "FPN 通过构建多层特征图，结合不同尺度的上下文信息，使得网络能更好地处理不同尺度的物体，尤其是小物体的分割效果提升。",
+    "category": "计算机视觉基础",
+    "difficulty": "普通",
+    "sourceRow": 80
+  },
+  {
+    "id": "判断题-81",
+    "type": "判断题",
+    "text": "在语义分割任务中，条件随机场（CRF）常用于模型训练阶段，以增强模型的上下文信息理解。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "错误"
+    ],
+    "explanation": "条件随机场通常用于后处理阶段，而不是训练阶段。它通过细化边界和调整像素间的依赖关系来优化分割结果。",
+    "category": "计算机视觉基础",
+    "difficulty": "普通",
+    "sourceRow": 81
+  },
+  {
+    "id": "判断题-82",
+    "type": "判断题",
+    "text": "Early Stopping 会降低模型的最终性能。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "错误"
+    ],
+    "explanation": "Early Stopping 可防止过拟合，在一定程度上可能提高最终性能。",
+    "category": "计算机视觉基础",
+    "difficulty": "普通",
+    "sourceRow": 82
+  },
+  {
+    "id": "判断题-83",
+    "type": "判断题",
+    "text": "视频的时间连续性、帧率和分辨率是视频语义分割中需要重点考虑的因素。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "正确"
+    ],
+    "explanation": "视频语义分割需要考虑时间连续性、帧率和分辨率，以保证模型在不同场景下的准确性和鲁棒性。",
+    "category": "计算机视觉基础",
+    "difficulty": "普通",
+    "sourceRow": 83
+  },
+  {
+    "id": "判断题-84",
+    "type": "判断题",
+    "text": "大语言模型的任务类型只包括文本生成，不包括文本分类。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "错误"
+    ],
+    "explanation": "大语言模型任务类型丰富，包括文本生成、文本分类等多种。",
+    "category": "自然语言处理",
+    "difficulty": "简单",
+    "sourceRow": 84
+  },
+  {
+    "id": "判断题-85",
+    "type": "判断题",
+    "text": "代码生成不是大语言模型的应用场景。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "错误"
+    ],
+    "explanation": "大语言模型可实现代码生成功能。",
+    "category": "自然语言处理",
+    "difficulty": "简单",
+    "sourceRow": 85
+  },
+  {
+    "id": "判断题-86",
+    "type": "判断题",
+    "text": "文本摘要不是大语言模型的任务。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "错误"
+    ],
+    "explanation": "文本摘要是大语言模型的任务之一。",
+    "category": "自然语言处理",
+    "difficulty": "简单",
+    "sourceRow": 86
+  },
+  {
+    "id": "判断题-87",
+    "type": "判断题",
+    "text": "情感分析不属于大语言模型的任务类型。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "错误"
+    ],
+    "explanation": "情感分析是大语言模型可完成的文本分析任务。",
+    "category": "自然语言处理",
+    "difficulty": "简单",
+    "sourceRow": 87
+  },
+  {
+    "id": "判断题-88",
+    "type": "判断题",
+    "text": "智能客服是大语言模型的一种应用场景。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "正确"
+    ],
+    "explanation": "大语言模型可用于优化智能客服的对话交互。",
+    "category": "自然语言处理",
+    "difficulty": "简单",
+    "sourceRow": 88
+  },
+  {
+    "id": "判断题-89",
+    "type": "判断题",
+    "text": "大语言模型技术路线中不包含基于 Transformer 架构。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "错误"
+    ],
+    "explanation": "Transformer 架构是大语言模型的重要技术基础。",
+    "category": "自然语言处理",
+    "difficulty": "简单",
+    "sourceRow": 89
+  },
+  {
+    "id": "判断题-90",
+    "type": "判断题",
+    "text": "基于规则的方法是大语言模型主流技术路线之一。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "错误"
+    ],
+    "explanation": "当前大语言模型主流基于深度学习，而非基于规则。",
+    "category": "自然语言处理",
+    "difficulty": "普通",
+    "sourceRow": 90
+  },
+  {
+    "id": "判断题-91",
+    "type": "判断题",
+    "text": "在大语言模型常用的 Transformer 技术中，多头注意力机制（Multi - Head Attention）的多个头学习到的特征表示是完全相同的。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "错误"
+    ],
+    "explanation": "多头注意力机制中不同头学习到不同特征表示，丰富模型表达能力。",
+    "category": "自然语言处理",
+    "difficulty": "普通",
+    "sourceRow": 91
+  },
+  {
+    "id": "判断题-92",
+    "type": "判断题",
+    "text": "大语言模型在跨语言任务中，不需要对不同语言进行统一编码。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "错误"
+    ],
+    "explanation": "跨语言任务通常需对不同语言统一编码，便于模型处理。",
+    "category": "自然语言处理",
+    "difficulty": "普通",
+    "sourceRow": 92
+  },
+  {
+    "id": "判断题-93",
+    "type": "判断题",
+    "text": "大语言模型的对抗训练技术中，生成器和判别器不能共享参数。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "正确"
+    ],
+    "explanation": "生成器和判别器在对抗训练中通常有不同功能，不共享参数。",
+    "category": "自然语言处理",
+    "difficulty": "普通",
+    "sourceRow": 93
+  },
+  {
+    "id": "判断题-94",
+    "type": "判断题",
+    "text": "大语言模型在进行文本生成任务时，若采用基于变分自编码器（VAE）的生成方式，生成文本的多样性仅取决于潜在空间的维度设置。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "错误"
+    ],
+    "explanation": "基于 VAE 生成文本多样性不仅取决于潜在空间维度，还与损失函数设计、先验分布选择等因素有关。",
+    "category": "自然语言处理",
+    "difficulty": "困难",
+    "sourceRow": 94
+  },
+  {
+    "id": "判断题-95",
+    "type": "判断题",
+    "text": "对于基于注意力机制的大语言模型技术，在处理超长文本序列（如超过 5000 词）时，传统的全局注意力机制在计算效率和内存消耗上依然能保持最优性能。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "错误"
+    ],
+    "explanation": "处理超长文本序列，传统全局注意力机制计算效率低、内存消耗大，并非最优，需改进的注意力机制如局部注意力等。",
+    "category": "自然语言处理",
+    "difficulty": "困难",
+    "sourceRow": 95
+  },
+  {
+    "id": "判断题-96",
+    "type": "判断题",
+    "text": "情感分析通常用于分析文本的情感倾向，例如“正面”或“负面”。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "正确"
+    ],
+    "explanation": "",
+    "category": "自然语言处理",
+    "difficulty": "简单",
+    "sourceRow": 96
+  },
+  {
+    "id": "判断题-97",
+    "type": "判断题",
+    "text": "在情感分析任务中，OOV（Out-of-Vocabulary）问题可以通过使用子词分词（Subword Tokenization）来缓解。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "正确"
+    ],
+    "explanation": "",
+    "category": "自然语言处理",
+    "difficulty": "普通",
+    "sourceRow": 97
+  },
+  {
+    "id": "判断题-98",
+    "type": "判断题",
+    "text": "在 Transformer 结构中，多头注意力（Multi-Head Attention）用于捕捉不同层次的文本信息。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "正确"
+    ],
+    "explanation": "",
+    "category": "自然语言处理",
+    "difficulty": "普通",
+    "sourceRow": 98
+  },
+  {
+    "id": "判断题-99",
+    "type": "判断题",
+    "text": "迁移学习可以用于情感分析任务，但仅适用于结构化数据，不适用于文本数据。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "错误"
+    ],
+    "explanation": "迁移学习可用于文本，如 BERT 微调。",
+    "category": "自然语言处理",
+    "difficulty": "普通",
+    "sourceRow": 99
+  },
+  {
+    "id": "判断题-100",
+    "type": "判断题",
+    "text": "在 LSTM 网络中，遗忘门（Forget Gate）用于决定哪些信息应当保留，哪些信息应该遗忘。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "正确"
+    ],
+    "explanation": "",
+    "category": "自然语言处理",
+    "difficulty": "普通",
+    "sourceRow": 100
+  },
+  {
+    "id": "判断题-101",
+    "type": "判断题",
+    "text": "AlexNet 在 2012 年的 ImageNet 比赛中首次使用 GPU 训练，显著提升了图像识别准确率。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "正确"
+    ],
+    "explanation": "",
+    "category": "未分类",
+    "difficulty": "未标注",
+    "sourceRow": 101
+  },
+  {
+    "id": "判断题-102",
+    "type": "判断题",
+    "text": "GPT-3 是 OpenAI 在 2020 年推出的一种多模态模型，同时处理文本和图像。",
+    "options": [
+      {
+        "key": "正确",
+        "text": "正确"
+      },
+      {
+        "key": "错误",
+        "text": "错误"
+      }
+    ],
+    "answer": [
+      "错误"
+    ],
+    "explanation": "GPT-3 是文本模型，多模态的是 GPT-4",
+    "category": "未分类",
+    "difficulty": "未标注",
+    "sourceRow": 102
+  }
+]
