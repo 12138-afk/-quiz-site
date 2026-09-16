@@ -1,4 +1,4 @@
-import{At as e,Lt as t,Ot as n,kt as r}from"./globals-FjkMTjXA.js";import{n as i,r as a,t as o}from"./table-copy-DUqqLWNI.js";var s=t(),c=e(),l=`https://ai.fmaster.cn/sw/ai/#/modelTask/NN?type=0&isEdit=false&isPublicTab=false&taskTag=&curTaskTag=mmdet&name=ResNet&modelId=795&modelPath=ResNet`,u=`===================================================================================================================
+import{At as e,Lt as t,Ot as n,kt as r}from"./globals-BzSoV2JG.js";import{n as i,r as a,t as o}from"./table-copy-D3Tqa0Je.js";var s=t(),c=e(),l=`https://ai.fmaster.cn/sw/ai/#/modelTask/NN?type=0&isEdit=false&isPublicTab=false&taskTag=&curTaskTag=mmdet&name=ResNet&modelId=795&modelPath=ResNet`,u=`===================================================================================================================
 Layer (type:idx)                         Kernel Shape              Input Shape               Output Shape
 ===================================================================================================================
 ResNet                                   --                        [1, 3, 640, 640]          [1, 64, 160, 160]
